@@ -3,7 +3,7 @@ size = 12
 
 builtin_box_drawing = true
 
-normal = { family = "JetBrainsMono", style = "Regular" }
-bold = { family = "JetBrainsMono", style = "Bold" }
-italic = { family = "JetBrainsMono", style = "Italic" }
-bold_italic = { family = "JetBrainsMono", style = "Bold Italic" }
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
