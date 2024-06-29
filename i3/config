@@ -11,7 +11,7 @@
 exec polybar
 exec dunst
 exec picom --experimental-backend --config ~/.config/picom.conf 
-exec feh --bg-scale $HOME/gruv-portal-cake.png
+exec feh --bg-scale $HOME/gruv-material.png
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -38,7 +38,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 exec copyq
-
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -53,7 +52,7 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 bindsym $mod+n exec nemo
 
 # kill focused window
@@ -192,14 +191,14 @@ mode "resize" {
 #exec polybar
 bindsym $mod+r mode "resize"
 
-client.focused #fabd2f #fabd2f #282828 #fabd2f #fabd2f
+client.focused #83a598 #83a598 #282828 #83a598 #83a598
 client.focused_inactive #655c54 #655c54 #ebdbb2 #655c54 #655c54
 client.unfocused #665c54 #665c54 #ebdbb2 #655c54 #665c54
 client.urgent #fe8019 #fe8019 #ebdbb2 #fe8019 #fe8019
 gaps inner 0
 gaps outer 130
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 1
+default_floating_border pixel 1
 #bar {
 #  status_command i3status
 #  position bottom
