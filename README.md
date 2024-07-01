@@ -8,8 +8,9 @@ Screenshot:
     ```shell
     git clone https://github.com/vidy007/dotfiles.git
     ```
-2. ```cd``` to cloned repo
-3. Copy all the folders in /home/[ur name]/.config
+2. `cd` to cloned repo
+3. Copy all the folders in your `.config` folder
 4. Enjoy your life!
 # Firefox moment
-Before copying userChrome.css file, install vertical tabs extension, e.g. this one: https://addons.mozilla.org/en-US/firefox/addon/sidetabs/
+You need to copy the firefox config in a special folder. Guide for customizing firefox is [here](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/#wiki_how_to_customize_firefox_with_css.)
+Also, my config hides tab bar, so you have to install [this one](https://addons.mozilla.org/en-US/firefox/addon/sidetabs/)
