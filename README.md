@@ -19,4 +19,5 @@
     ```
 2. `cd` to cloned repo
 3. Copy all the folders in your `.config` folder
-4. Enjoy
+4. Copy vimrc to ur home dir
+5. Enjoy
