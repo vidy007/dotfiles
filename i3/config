@@ -1,7 +1,7 @@
 exec polybar
 exec dunst
 exec picom --config ~/.config/picom.conf --daemon
-exec feh --bg-scale $HOME/gruv-focus_yellow.png
+#exec feh --bg-scale ur/wall/path/goes/here
 set $mod Mod4
 
 font pango:JetBrains Mono 10
