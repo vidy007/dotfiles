@@ -1,7 +1,7 @@
 # Showcase
-Video:
-![](docs/vid.gif)
-Screenshot:
+![](https://i.imgur.com/wXhmVtq.png)
+![](https://i.imgur.com/2WSPI5F.png)
+![](https://i.imgur.com/P3PwwhH.png)
 ![](https://i.imgur.com/VMngV1N.png)
 # How to install
 1. Clone this repo:
