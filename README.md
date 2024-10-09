@@ -1,5 +1,5 @@
 # Discontinued
-I have switched my WM recently, so this repo will no longer be updated, so im not responsible for any bugs you will face.
+I switched my WM recently, so this repo will no longer be updated, so im not responsible for any bugs you will face.
 
 # List of programs
 * File manager - [ranger](https://github.com/ranger/ranger) (soon will be replaced with [yazi](https://github.com/sxyazi/yazi))
