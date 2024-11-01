@@ -20,7 +20,7 @@ configuration {
     selected:       #EBDBB2FF;
     active:         #FE8019FF;
     urgent:         #FB4934FF;
-    font: "Font Awesome 6 Free Solid 10";
+    font: "Font Awesome 6 Free Solid 12";
 }
 /*****----- Main Window -----*****/
 window {
@@ -29,7 +29,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       152px;
+    width:                       163px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -99,7 +99,7 @@ element-text {
     text-color:                  inherit;
     cursor:                      inherit;
     vertical-align:              0.5;
-    horizontal-align:            0.0;
+    horizontal-align:            0.5;
 }
 element selected.normal {
     background-color:            var(selected);

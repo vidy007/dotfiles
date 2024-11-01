@@ -33,7 +33,7 @@ bspc rule -a zoom state=floating border_width=0
 
 picom &
 polybar &
-feh --bg-scale ~/Загрузки/debian_grey_swirl_gruv.png &
+feh --bg-scale ~/debian_grey_swirl_gruv.png &
 copyq &
 setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle &
 dunst &

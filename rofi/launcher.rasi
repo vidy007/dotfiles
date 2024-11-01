@@ -27,7 +27,7 @@ configuration {
 }
 
 * {
-    font: "Cascadia Mono 9.2";
+    font: "IBM Plex Mono Medium 9.2";
 }
 
 * {
