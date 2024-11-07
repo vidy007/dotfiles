@@ -62,14 +62,16 @@ require("lazy").setup({
    { "bfredl/nvim-ipy" },
    { "echasnovski/mini.nvim" },
    { "deathbeam/autocomplete.nvim" },
-   { "m4xshen/autoclose.nvim" },
-   --{ "rstacruz/vim-closer" },
    { "nvim-lua/plenary.nvim" },
    { "BurntSushi/ripgrep" },
-   { "sharkdp/fd" },
-   --{ "nvim-treesitter/nvim-treesitter" },
+   { "sharkdp/fd" }, 
    { "brenoprata10/nvim-highlight-colors" },
-   { "nvim-lualine/lualine.nvim" }
+   { 
+	   "windwp/nvim-autopairs",
+	   event = "InsertEnter",
+	   config = true
+   },
+   { "mfussenegger/nvim-dap" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
@@ -132,16 +134,16 @@ require('mini.starter').setup()
 require('mini.statusline').setup()
 require('mini.tabline').setup()
 require('mini.surround').setup()
-require("autoclose").setup({
-	options = {
-		disable_when_touch = {"false"},
-		auto_indent = {"true"},
-	},
-})
+--require("autoclose").setup({
+--	options = {
+--		disable_when_touch = {"false"},
+--		auto_indent = {"true"},
+--	},
+--})
 require'lspconfig'.pyright.setup{}
 require('nvim-highlight-colors').setup({})
 require('mini.clue').setup()
--- require('mini.animate').setup()
+require('mini.animate').setup()
 require('mini.files').setup()
 require('mini.comment').setup()
 require'lspconfig'.html.setup {
@@ -159,7 +161,52 @@ require'lspconfig'.pylsp.setup{
     }
   }
 }
-
+require'lspconfig'.rust_analyzer.setup {
+  -- Server-specific settings. See `:help lspconfig-setup`
+  settings = {
+    ['rust-analyzer'] = {},
+  },
+}
+require("dap").adapters.gdb = {
+  type = "executable",
+  command = "gdb",
+  args = { "--interpreter=dap", "--eval-command", "set print pretty on" }
+}
+require("dap").configurations.rust = {
+  {
+    name = "Launch",
+    type = "gdb",
+    request = "launch",
+    program = function()
+      return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+    end,
+    cwd = "${workspaceFolder}",
+    stopAtBeginningOfMainSubprogram = false,
+  },
+  {
+    name = "Select and attach to process",
+    type = "gdb",
+    request = "attach",
+    program = function()
+       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+    end,
+    pid = function()
+       local name = vim.fn.input('Executable name (filter): ')
+       return require("dap.utils").pick_process({ filter = name })
+    end,
+    cwd = '${workspaceFolder}'
+  },
+  {
+    name = 'Attach to gdbserver :1234',
+    type = 'gdb',
+    request = 'attach',
+    target = 'localhost:1234',
+    program = function()
+       return vim.fn.input('Path to executable: ', vim.fn.getcwd() .. '/', 'file')
+    end,
+    cwd = '${workspaceFolder}'
+  },
+}
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
 vim.wo.number = true

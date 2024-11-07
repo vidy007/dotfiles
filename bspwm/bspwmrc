@@ -4,22 +4,22 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config border_width        2
+bspc config border_width        0
 bspc config focused_border_color "#ebdbb2"
-bspc config normal_border_color "#3c3836"
+bspc config normal_border_color "#504945"
 bspc config urgent_border_color "#fe8019"
-bspc config window_gap          0
-bspc config top_padding 140
+bspc config window_gap          5
+bspc config top_padding 125
 bspc config right_padding 140
 bspc config left_padding 140
-bspc config bottom_padding 140
+bspc config bottom_padding 165
 # bspc config center_pseudo_tiled         true
 
 for side in top right left bottom; do bspc config ${side}_monocle_padding -92; done
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle  true 
-# bspc config gapless_monocle      true
+bspc config gapless_monocle      true
 bspc config single_monocle true
 
 bspc config focus_follows_pointer true
@@ -33,8 +33,7 @@ bspc rule -a zoom state=floating border_width=0
 
 picom &
 polybar &
-feh --bg-scale ~/debian_grey_swirl_gruv.png &
+feh --bg-scale ~/gruv-mojave.jpg &
 copyq &
 setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle &
 dunst &
-spoof-dpi -system-proxy -silent &

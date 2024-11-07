@@ -20,7 +20,7 @@ configuration {
     selected:       #EBDBB2FF;
     active:         #FE8019FF;
     urgent:         #FB4934FF;
-    font: "Font Awesome 6 Free Solid 12";
+    font: "BlexMono Nerd Font 10";
 }
 /*****----- Main Window -----*****/
 window {
@@ -29,7 +29,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       163px;
+    width:                       605px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -37,8 +37,8 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      2px solid;
-    border-radius:               0px;
+    border:                      0px solid;
+    border-radius:               5px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -47,14 +47,78 @@ window {
 /*****----- Main Box -----*****/
 mainbox {
     enabled:                     true;
-    spacing:                     8px;
+    spacing:                     10px;
     margin:                      0px;
-    padding:                     8px;
+    padding:                     20px;
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
-    children:                    [ "listview" ];
+    children:                    [ "inputbar", "message", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            transparent;
+    text-color:                  @foreground;
+    children:                    [ "textbox-prompt-colon", dummy, "prompt"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "";
+    padding:                     10px 18px 10px 13px;
+    border-radius:               3px;
+    background-color:            @urgent;
+    text-color:                  @background;
+}
+prompt {
+    enabled:                     true;
+    padding:                     10px;
+    border-radius:               3px;
+    background-color:            @active;
+    text-color:                  @background;
+}
+
+/*****----- Message -----*****/
+message {
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     10px;
+    border:                      0px solid;
+    border-radius:               3px;
+    border-color:                @selected;
+    background-color:            @background-alt;
+    text-color:                  @foreground;
+}
+textbox {
+    background-color:            inherit;
+    text-color:                  inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+    placeholder-color:           @foreground;
+    blink:                       true;
+    markup:                      true;
+}
+error-message {
+    padding:                     10px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            @background;
+    text-color:                  @foreground;
 }
 
 /*****----- Listview -----*****/
@@ -67,10 +131,10 @@ listview {
     scrollbar:                   false;
     layout:                      vertical;
     reverse:                     false;
-    fixed-height:                false;
+    fixed-height:                true;
     fixed-columns:               true;
     
-    spacing:                     5px;
+    spacing:                     10px;
     margin:                      0px;
     padding:                     0px;
     border:                      0px solid;
@@ -86,11 +150,11 @@ element {
     enabled:                     true;
     spacing:                     0px;
     margin:                      0px;
-    padding:                     8px;
+    padding:                     10px;
     border:                      0px solid;
-    border-radius:               0px;
+    border-radius:               3px;
     border-color:                @selected;
-    background-color:            transparent;
+    background-color:            @background-alt;
     text-color:                  @foreground;
     cursor:                      pointer;
 }
@@ -102,6 +166,8 @@ element-text {
     horizontal-align:            0.5;
 }
 element selected.normal {
+    border:                      0px 2px 0px 2px;
+    border-radius:               3px;
     background-color:            var(selected);
     text-color:                  var(background);
 }
