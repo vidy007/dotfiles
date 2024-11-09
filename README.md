@@ -20,4 +20,4 @@ programs i use here are:
 * picom (rounded corners)
 # Credits!
 * rofi config is an edited version of ![this one](https://github.com/adi1090x/rofi/blob/master/files/launchers/type-1/style-3.rasi)
-* tizu file opened in neovim on the 5th screenshot is my own ascii art for [tulizu](github.com/loh-tar/tulizu/tree/debian)
+* tizu file opened in neovim on the 5th screenshot is my own ascii art for [tulizu](github.com/loh-tar/tulizu) (debian branch)
