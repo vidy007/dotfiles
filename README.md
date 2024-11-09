@@ -8,6 +8,7 @@
 video preview is coming soon
 # Info!
 this wallpaper was found [here](https://gruvbox-wallpapers.pages.dev) in the "irl" section
+
 programs i use here are:
 * polybar
 * alacritty ft. neovim and fastfetch
