@@ -1,0 +1,189 @@
+15:30:02.842: Using EGL/X11
+15:30:02.842: CPU Name: AMD Ryzen 5 2400G with Radeon Vega Graphics
+15:30:02.842: CPU Speed: 3061.394MHz
+15:30:02.842: Physical Cores: 4, Logical Cores: 8
+15:30:02.842: Physical Memory: 13920MB Total, 10987MB Free
+15:30:02.842: Kernel Version: Linux 6.12.7-arch1-1
+15:30:02.842: Distribution: "Arch Linux" Unknown
+15:30:02.842: Session Type: tty
+15:30:02.843: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+15:30:02.849: Qt Version: 6.8.1 (runtime), 6.8.1 (compiled)
+15:30:02.849: Portable mode: false
+15:30:03.012: OBS 31.0.0 (linux)
+15:30:03.012: ---------------------------------
+15:30:03.016: ---------------------------------
+15:30:03.016: audio settings reset:
+15:30:03.016: 	samples per sec: 48000
+15:30:03.016: 	speakers:        2
+15:30:03.016: 	max buffering:   960 milliseconds
+15:30:03.016: 	buffering type:  dynamically increasing
+15:30:03.027: ---------------------------------
+15:30:03.027: Initializing OpenGL...
+15:30:03.153: Loading up OpenGL on adapter AMD AMD Radeon Vega 11 Graphics (radeonsi, raven, LLVM 18.1.8, DRM 3.59, 6.12.7-arch1-1)
+15:30:03.153: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.2-arch1.1, shading language 4.60
+15:30:03.239: ---------------------------------
+15:30:03.239: video settings reset:
+15:30:03.239: 	base resolution:   1920x1080
+15:30:03.239: 	output resolution: 1280x720
+15:30:03.239: 	downscale filter:  Bicubic
+15:30:03.239: 	fps:               60/1
+15:30:03.239: 	format:            NV12
+15:30:03.239: 	YUV mode:          Rec. 709/Partial
+15:30:03.240: NV12 texture support enabled
+15:30:03.240: P010 texture support not available
+15:30:03.257: Audio monitoring device:
+15:30:03.257: 	name: По умолчанию
+15:30:03.257: 	id: default
+15:30:03.261: ---------------------------------
+15:30:03.287: Failed to load 'en-US' text for module: 'decklink-captions.so'
+15:30:03.310: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+15:30:03.330: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+15:30:03.330: Failed to initialize module 'decklink.so'
+15:30:03.780: [pipewire] No capture sources available
+15:30:03.853: v4l2loopback not installed, virtual camera not registered
+15:30:04.077: VAAPI: API version 1.22
+15:30:04.086: FFmpeg VAAPI H264 encoding supported
+15:30:04.108: FFmpeg VAAPI AV1 encoding not supported
+15:30:04.135: FFmpeg VAAPI HEVC encoding supported
+15:30:04.244: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+15:30:04.244: 
+15:30:04.244: NVENC not supported
+15:30:04.244: Failed to initialize module 'obs-nvenc.so'
+15:30:04.695: ---------------------------------
+15:30:04.696:   Loaded Modules:
+15:30:04.696:     text-freetype2.so
+15:30:04.696:     rtmp-services.so
+15:30:04.696:     obs-x264.so
+15:30:04.696:     obs-webrtc.so
+15:30:04.696:     obs-vst.so
+15:30:04.696:     obs-transitions.so
+15:30:04.696:     obs-qsv11.so
+15:30:04.696:     obs-outputs.so
+15:30:04.696:     obs-libfdk.so
+15:30:04.696:     obs-filters.so
+15:30:04.696:     obs-ffmpeg.so
+15:30:04.696:     linux-v4l2.so
+15:30:04.696:     linux-pulseaudio.so
+15:30:04.696:     linux-pipewire.so
+15:30:04.696:     linux-jack.so
+15:30:04.696:     linux-capture.so
+15:30:04.696:     linux-alsa.so
+15:30:04.696:     image-source.so
+15:30:04.696:     frontend-tools.so
+15:30:04.696:     decklink-output-ui.so
+15:30:04.696:     decklink-captions.so
+15:30:04.696: ---------------------------------
+15:30:04.696: ---------------------------------
+15:30:04.696: Available Encoders:
+15:30:04.696:   Video Encoders:
+15:30:04.696: 	- ffmpeg_svt_av1 (SVT-AV1)
+15:30:04.696: 	- ffmpeg_aom_av1 (AOM AV1)
+15:30:04.696: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+15:30:04.696: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+15:30:04.696: 	- obs_x264 (x264)
+15:30:04.696:   Audio Encoders:
+15:30:04.696: 	- ffmpeg_aac (FFmpeg AAC)
+15:30:04.696: 	- ffmpeg_opus (FFmpeg Opus)
+15:30:04.696: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+15:30:04.696: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+15:30:04.696: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+15:30:04.696: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+15:30:04.696: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+15:30:04.696: 	- libfdk_aac (libfdk AAC)
+15:30:04.696: ==== Startup complete ===============================================
+15:30:04.748: All scene data cleared
+15:30:04.748: ------------------------------------------------
+15:30:04.758: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+15:30:04.758: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:30:04.759: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+15:30:04.762: [Loaded global audio device]: 'Рабочий стол'
+15:30:04.764: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+15:30:04.764: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+15:30:04.765: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+15:30:04.765: [Loaded global audio device]: 'Микр/доп'
+15:30:04.767: [window-capture: 'Захват окна (Xcomposite)'] update settings:
+15:30:04.767: 	title: TETR.IO
+15:30:04.767: 	class: tetrio-desktop
+15:30:04.767: 
+15:30:04.771: xshm-input: Geometry 1920x1080 @ 0,0
+15:30:04.815: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+15:30:04.815: 	title: unknown
+15:30:04.815: 	class: unknown
+15:30:04.815: 
+15:30:04.819: Switched to scene 'Сцена 2'
+15:30:04.819: ------------------------------------------------
+15:30:04.819: Loaded scenes:
+15:30:04.819: - scene 'Сцена':
+15:30:04.819:     - source: 'Фоновый цвет' (color_source_v3)
+15:30:04.819:     - source: 'Захват окна (Xcomposite)' (xcomposite_input)
+15:30:04.819:     - source: 'Захват экрана (XSHM)' (xshm_input_v2)
+15:30:04.819:     - source: 'CHAT' (text_ft2_source_v2)
+15:30:04.819:     - source: 'description' (text_ft2_source_v2)
+15:30:04.819:     - source: 'Изображение' (image_source)
+15:30:04.819:     - source: 'noob' (text_ft2_source_v2)
+15:30:04.819:     - source: 'description 2' (text_ft2_source_v2)
+15:30:04.819:     - source: 'Захват окна (Xcomposite) 2' (xcomposite_input)
+15:30:04.819: - scene 'starting scren':
+15:30:04.819:     - source: 'Текст (FreeType 2)' (text_ft2_source_v2)
+15:30:04.819: - scene 'Сцена 2':
+15:30:04.819:     - source: 'Текст (FreeType 2) 2' (text_ft2_source_v2)
+15:30:04.819: ------------------------------------------------
+15:30:05.364: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Рабочий стол)
+15:30:05.364: 
+15:30:06.767: User switched to scene 'Сцена'
+15:30:14.112: User added scene 'recordin'
+15:30:14.114: User switched to scene 'recordin'
+15:30:16.075: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65571).
+15:30:16.075: 
+15:30:21.518: User added source 'Захват экрана (XSHM) 2' (xshm_input_v2) to scene 'recordin'
+15:30:24.305: xshm-input: Geometry 1920x1080 @ 0,0
+15:30:28.584: ---------------------------------
+15:30:28.584: [x264 encoder: 'simple_video_recording'] preset: veryfast
+15:30:28.584: [x264 encoder: 'simple_video_recording'] profile: high
+15:30:28.588: [x264 encoder: 'simple_video_recording'] settings:
+15:30:28.588: 	rate_control: CRF
+15:30:28.588: 	bitrate:      0
+15:30:28.588: 	buffer size:  0
+15:30:28.588: 	crf:          14
+15:30:28.588: 	fps_num:      60
+15:30:28.588: 	fps_den:      1
+15:30:28.588: 	width:        1280
+15:30:28.588: 	height:       720
+15:30:28.588: 	keyint:       250
+15:30:28.588: 
+15:30:28.612: libfdk_aac encoder created
+15:30:28.612: libfdk_aac bitrate: 192, channels: 2
+15:30:28.679: ==== Recording Start ===============================================
+15:30:28.679: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/artem/2025-01-17_15-30-28.mp4'...
+15:30:47.909: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/artem/2025-01-17_15-30-28.mp4' stopped
+15:30:47.909: Output 'simple_file_output': stopping
+15:30:47.909: Output 'simple_file_output': Total frames output: 1130
+15:30:47.909: Output 'simple_file_output': Total drawn frames: 1154
+15:30:47.910: ==== Recording Stop ================================================
+15:30:47.924: libfdk_aac encoder destroyed
+16:22:39.103: ---------------------------------
+16:22:39.103: [x264 encoder: 'simple_video_recording'] preset: veryfast
+16:22:39.103: [x264 encoder: 'simple_video_recording'] profile: high
+16:22:39.103: [x264 encoder: 'simple_video_recording'] settings:
+16:22:39.103: 	rate_control: CRF
+16:22:39.103: 	bitrate:      0
+16:22:39.103: 	buffer size:  0
+16:22:39.103: 	crf:          14
+16:22:39.103: 	fps_num:      60
+16:22:39.103: 	fps_den:      1
+16:22:39.103: 	width:        1280
+16:22:39.103: 	height:       720
+16:22:39.103: 	keyint:       250
+16:22:39.103: 
+16:22:39.118: libfdk_aac encoder created
+16:22:39.118: libfdk_aac bitrate: 192, channels: 2
+16:22:39.122: ==== Recording Start ===============================================
+16:22:39.122: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/artem/2025-01-17_16-22-39.mp4'...
+16:22:48.763: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/artem/2025-01-17_16-22-39.mp4' stopped
+16:22:48.763: Output 'simple_file_output': stopping
+16:22:48.763: Output 'simple_file_output': Total frames output: 552
+16:22:48.763: Output 'simple_file_output': Total drawn frames: 579
+16:22:48.764: ==== Recording Stop ================================================
+16:22:48.783: libfdk_aac encoder destroyed
+16:39:08.318: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Микр/доп)
+16:39:08.318: 

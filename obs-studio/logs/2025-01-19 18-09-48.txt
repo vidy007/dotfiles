@@ -1,0 +1,167 @@
+18:09:48.198: Using EGL/X11
+18:09:48.198: CPU Name: AMD Ryzen 5 2400G with Radeon Vega Graphics
+18:09:48.198: CPU Speed: 2224.184MHz
+18:09:48.198: Physical Cores: 4, Logical Cores: 8
+18:09:48.198: Physical Memory: 13920MB Total, 9362MB Free
+18:09:48.198: Kernel Version: Linux 6.12.7-arch1-1
+18:09:48.199: Distribution: "Arch Linux" Unknown
+18:09:48.199: Session Type: tty
+18:09:48.199: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:09:48.199: Qt Version: 6.8.1 (runtime), 6.8.1 (compiled)
+18:09:48.199: Portable mode: false
+18:09:48.245: OBS 31.0.0 (linux)
+18:09:48.245: ---------------------------------
+18:09:48.246: ---------------------------------
+18:09:48.246: audio settings reset:
+18:09:48.246: 	samples per sec: 48000
+18:09:48.246: 	speakers:        2
+18:09:48.246: 	max buffering:   960 milliseconds
+18:09:48.246: 	buffering type:  dynamically increasing
+18:09:48.247: ---------------------------------
+18:09:48.247: Initializing OpenGL...
+18:09:48.343: Loading up OpenGL on adapter AMD AMD Radeon Vega 11 Graphics (radeonsi, raven, LLVM 18.1.8, DRM 3.59, 6.12.7-arch1-1)
+18:09:48.343: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.2-arch1.1, shading language 4.60
+18:09:48.382: ---------------------------------
+18:09:48.383: video settings reset:
+18:09:48.383: 	base resolution:   1920x1080
+18:09:48.383: 	output resolution: 1280x720
+18:09:48.383: 	downscale filter:  Bicubic
+18:09:48.383: 	fps:               60/1
+18:09:48.383: 	format:            NV12
+18:09:48.383: 	YUV mode:          Rec. 709/Partial
+18:09:48.383: NV12 texture support enabled
+18:09:48.383: P010 texture support not available
+18:09:48.393: Audio monitoring device:
+18:09:48.393: 	name: По умолчанию
+18:09:48.393: 	id: default
+18:09:48.395: ---------------------------------
+18:09:48.407: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:09:48.420: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:09:48.429: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:09:48.429: Failed to initialize module 'decklink.so'
+18:09:48.657: [pipewire] No capture sources available
+18:09:48.692: v4l2loopback not installed, virtual camera not registered
+18:09:48.772: VAAPI: API version 1.22
+18:09:48.773: FFmpeg VAAPI H264 encoding supported
+18:09:48.780: FFmpeg VAAPI AV1 encoding not supported
+18:09:48.789: FFmpeg VAAPI HEVC encoding supported
+18:09:48.840: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+18:09:48.840: 
+18:09:48.840: NVENC not supported
+18:09:48.840: Failed to initialize module 'obs-nvenc.so'
+18:09:49.038: ---------------------------------
+18:09:49.038:   Loaded Modules:
+18:09:49.038:     text-freetype2.so
+18:09:49.038:     rtmp-services.so
+18:09:49.038:     obs-x264.so
+18:09:49.038:     obs-webrtc.so
+18:09:49.038:     obs-vst.so
+18:09:49.038:     obs-transitions.so
+18:09:49.038:     obs-qsv11.so
+18:09:49.038:     obs-outputs.so
+18:09:49.038:     obs-libfdk.so
+18:09:49.038:     obs-filters.so
+18:09:49.038:     obs-ffmpeg.so
+18:09:49.038:     linux-v4l2.so
+18:09:49.038:     linux-pulseaudio.so
+18:09:49.038:     linux-pipewire.so
+18:09:49.038:     linux-jack.so
+18:09:49.038:     linux-capture.so
+18:09:49.038:     linux-alsa.so
+18:09:49.038:     image-source.so
+18:09:49.038:     frontend-tools.so
+18:09:49.038:     decklink-output-ui.so
+18:09:49.038:     decklink-captions.so
+18:09:49.038: ---------------------------------
+18:09:49.038: ---------------------------------
+18:09:49.038: Available Encoders:
+18:09:49.038:   Video Encoders:
+18:09:49.038: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:09:49.038: 	- ffmpeg_aom_av1 (AOM AV1)
+18:09:49.038: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:09:49.038: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:09:49.038: 	- obs_x264 (x264)
+18:09:49.038:   Audio Encoders:
+18:09:49.038: 	- ffmpeg_aac (FFmpeg AAC)
+18:09:49.038: 	- ffmpeg_opus (FFmpeg Opus)
+18:09:49.038: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+18:09:49.038: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+18:09:49.038: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+18:09:49.038: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+18:09:49.038: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+18:09:49.038: 	- libfdk_aac (libfdk AAC)
+18:09:49.038: ==== Startup complete ===============================================
+18:09:49.078: All scene data cleared
+18:09:49.078: ------------------------------------------------
+18:09:49.085: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:09:49.085: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:09:49.086: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+18:09:49.086: [Loaded global audio device]: 'Рабочий стол'
+18:09:49.087: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+18:09:49.087: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:09:49.087: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+18:09:49.087: [Loaded global audio device]: 'Микр/доп'
+18:09:49.088: [window-capture: 'Захват окна (Xcomposite)'] update settings:
+18:09:49.088: 	title: unknown
+18:09:49.088: 	class: unknown
+18:09:49.088: 
+18:09:49.088: xcb_composite_name_window_pixmap failed
+18:09:49.089: xshm-input: Geometry 1920x1080 @ 0,0
+18:09:49.113: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+18:09:49.113: 	title: unknown
+18:09:49.113: 	class: unknown
+18:09:49.113: 
+18:09:49.115: xshm-input: Geometry 1920x1080 @ 0,0
+18:09:49.119: Switched to scene 'recordin'
+18:09:49.120: ------------------------------------------------
+18:09:49.120: Loaded scenes:
+18:09:49.120: - scene 'recordin':
+18:09:49.120:     - source: 'Захват экрана (XSHM) 2' (xshm_input_v2)
+18:09:49.120: - scene 'Сцена':
+18:09:49.120:     - source: 'Фоновый цвет' (color_source_v3)
+18:09:49.120:     - source: 'Захват окна (Xcomposite)' (xcomposite_input)
+18:09:49.120:     - source: 'Захват экрана (XSHM)' (xshm_input_v2)
+18:09:49.120:     - source: 'CHAT' (text_ft2_source_v2)
+18:09:49.120:     - source: 'description' (text_ft2_source_v2)
+18:09:49.120:     - source: 'Изображение' (image_source)
+18:09:49.120:     - source: 'noob' (text_ft2_source_v2)
+18:09:49.120:     - source: 'description 2' (text_ft2_source_v2)
+18:09:49.120:     - source: 'Захват окна (Xcomposite) 2' (xcomposite_input)
+18:09:49.120: - scene 'starting scren':
+18:09:49.120:     - source: 'Текст (FreeType 2)' (text_ft2_source_v2)
+18:09:49.120: - scene 'Сцена 2':
+18:09:49.120:     - source: 'Текст (FreeType 2) 2' (text_ft2_source_v2)
+18:09:49.120: ------------------------------------------------
+18:09:49.633: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Рабочий стол)
+18:09:49.633: 
+18:09:52.123: User switched to scene 'Сцена 2'
+18:09:57.571: Get on org.freedesktop.portal.Settings returned an invalid reply
+18:09:57.572: Get on org.freedesktop.portal.Settings returned an invalid reply
+18:10:36.992: User switched to scene 'recordin'
+18:10:37.432: User switched to scene 'Сцена'
+18:10:38.714: User switched to scene 'starting scren'
+18:10:39.544: User switched to scene 'Сцена'
+18:10:40.072: User switched to scene 'starting scren'
+18:10:40.191: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65571).
+18:10:40.191: 
+18:10:41.785: User switched to scene 'Сцена'
+18:10:42.800: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65571).
+18:10:42.800: 
+18:10:43.547: User switched to scene 'Сцена 2'
+18:10:43.655: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65571).
+18:10:43.655: 
+18:10:44.545: User switched to scene 'Сцена'
+18:10:45.409: User switched to scene 'starting scren'
+18:10:46.417: User switched to scene 'Сцена'
+18:10:47.377: User switched to scene 'Сцена 2'
+18:10:48.314: User switched to scene 'starting scren'
+18:10:49.228: User switched to scene 'Сцена'
+18:10:50.683: User switched to scene 'starting scren'
+18:10:50.775: QVariant::save: unable to save type 'OBSSafeRef<obs_scene*,obs_scene_get_ref,obs_scene_release>' (type id: 65571).
+18:10:50.775: 
+18:10:51.138: User switched to scene 'Сцена'
+18:10:51.891: User switched to scene 'Сцена 2'
+18:10:53.763: User switched to scene 'starting scren'
+18:10:54.625: User switched to scene 'Сцена 2'
+18:10:55.858: User switched to scene 'starting scren'
+18:10:57.107: User switched to scene 'Сцена'

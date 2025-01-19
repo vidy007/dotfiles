@@ -1,0 +1,620 @@
+16:28:37.590: Using EGL/X11
+16:28:37.590: CPU Name: AMD Ryzen 5 2400G with Radeon Vega Graphics
+16:28:37.590: CPU Speed: 3744.975MHz
+16:28:37.590: Physical Cores: 4, Logical Cores: 8
+16:28:37.590: Physical Memory: 13920MB Total, 8064MB Free
+16:28:37.590: Kernel Version: Linux 6.12.7-arch1-1
+16:28:37.590: Distribution: "Arch Linux" Unknown
+16:28:37.590: Session Type: tty
+16:28:37.590: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+16:28:37.593: Qt Version: 6.8.1 (runtime), 6.8.1 (compiled)
+16:28:37.593: Portable mode: false
+16:28:37.665: OBS 31.0.0 (linux)
+16:28:37.665: ---------------------------------
+16:28:37.667: ---------------------------------
+16:28:37.667: audio settings reset:
+16:28:37.667: 	samples per sec: 48000
+16:28:37.667: 	speakers:        2
+16:28:37.667: 	max buffering:   960 milliseconds
+16:28:37.667: 	buffering type:  dynamically increasing
+16:28:37.673: ---------------------------------
+16:28:37.673: Initializing OpenGL...
+16:28:37.793: Loading up OpenGL on adapter AMD AMD Radeon Vega 11 Graphics (radeonsi, raven, LLVM 18.1.8, DRM 3.59, 6.12.7-arch1-1)
+16:28:37.793: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.2-arch1.1, shading language 4.60
+16:28:37.895: ---------------------------------
+16:28:37.895: video settings reset:
+16:28:37.895: 	base resolution:   1920x1080
+16:28:37.895: 	output resolution: 1280x720
+16:28:37.895: 	downscale filter:  Bicubic
+16:28:37.895: 	fps:               60/1
+16:28:37.895: 	format:            NV12
+16:28:37.895: 	YUV mode:          Rec. 709/Partial
+16:28:37.895: NV12 texture support enabled
+16:28:37.895: P010 texture support not available
+16:28:37.912: Audio monitoring device:
+16:28:37.912: 	name: По умолчанию
+16:28:37.912: 	id: default
+16:28:37.913: ---------------------------------
+16:28:37.933: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:28:37.951: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:28:37.971: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:28:37.971: Failed to initialize module 'decklink.so'
+16:28:38.287: [pipewire] No capture sources available
+16:28:38.341: v4l2loopback not installed, virtual camera not registered
+16:28:38.472: VAAPI: API version 1.22
+16:28:38.473: FFmpeg VAAPI H264 encoding supported
+16:28:38.481: FFmpeg VAAPI AV1 encoding not supported
+16:28:38.490: FFmpeg VAAPI HEVC encoding supported
+16:28:38.560: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+16:28:38.560: 
+16:28:38.560: NVENC not supported
+16:28:38.560: Failed to initialize module 'obs-nvenc.so'
+16:28:38.825: ---------------------------------
+16:28:38.825:   Loaded Modules:
+16:28:38.825:     text-freetype2.so
+16:28:38.825:     rtmp-services.so
+16:28:38.825:     obs-x264.so
+16:28:38.825:     obs-webrtc.so
+16:28:38.825:     obs-vst.so
+16:28:38.825:     obs-transitions.so
+16:28:38.825:     obs-qsv11.so
+16:28:38.825:     obs-outputs.so
+16:28:38.825:     obs-libfdk.so
+16:28:38.825:     obs-filters.so
+16:28:38.825:     obs-ffmpeg.so
+16:28:38.825:     linux-v4l2.so
+16:28:38.825:     linux-pulseaudio.so
+16:28:38.825:     linux-pipewire.so
+16:28:38.825:     linux-jack.so
+16:28:38.825:     linux-capture.so
+16:28:38.825:     linux-alsa.so
+16:28:38.825:     image-source.so
+16:28:38.825:     frontend-tools.so
+16:28:38.825:     decklink-output-ui.so
+16:28:38.826:     decklink-captions.so
+16:28:38.826: ---------------------------------
+16:28:38.826: ---------------------------------
+16:28:38.826: Available Encoders:
+16:28:38.826:   Video Encoders:
+16:28:38.826: 	- ffmpeg_svt_av1 (SVT-AV1)
+16:28:38.826: 	- ffmpeg_aom_av1 (AOM AV1)
+16:28:38.826: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+16:28:38.826: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+16:28:38.826: 	- obs_x264 (x264)
+16:28:38.826:   Audio Encoders:
+16:28:38.826: 	- ffmpeg_aac (FFmpeg AAC)
+16:28:38.826: 	- ffmpeg_opus (FFmpeg Opus)
+16:28:38.826: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+16:28:38.826: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+16:28:38.826: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+16:28:38.826: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+16:28:38.826: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+16:28:38.826: 	- libfdk_aac (libfdk AAC)
+16:28:38.826: ==== Startup complete ===============================================
+16:28:38.863: All scene data cleared
+16:28:38.863: ------------------------------------------------
+16:28:38.869: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+16:28:38.869: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:28:38.869: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+16:28:38.870: [Loaded global audio device]: 'Рабочий стол'
+16:28:38.870: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+16:28:38.870: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:28:38.870: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+16:28:38.871: [Loaded global audio device]: 'Микр/доп'
+16:28:38.872: [window-capture: 'Захват окна (Xcomposite)'] update settings:
+16:28:38.872: 	title: TETR.IO
+16:28:38.872: 	class: tetrio-desktop
+16:28:38.872: 
+16:28:38.872: xcb_composite_name_window_pixmap failed
+16:28:38.874: Switched to scene 'Сцена'
+16:28:38.874: ------------------------------------------------
+16:28:38.874: Loaded scenes:
+16:28:38.874: - scene 'Сцена':
+16:28:38.874:     - source: 'Захват окна (Xcomposite)' (xcomposite_input)
+16:28:38.874: ------------------------------------------------
+16:28:39.439: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Рабочий стол)
+16:28:39.439: 
+16:28:51.482: User added source 'Захват экрана (XSHM)' (xshm_input_v2) to scene 'Сцена'
+16:28:54.028: xshm-input: Geometry 1920x1080 @ 0,0
+16:30:06.212: User added source 'description' (text_ft2_source_v2) to scene 'Сцена'
+16:36:28.930: User added source 'description 2' (text_ft2_source_v2) to scene 'Сцена'
+16:39:07.520: Source 'description' renamed to 'CHAT'
+16:39:12.900: Source 'description 2' renamed to 'description'
+16:43:36.138: User added source 'Изображение' (image_source) to scene 'Сцена'
+16:44:29.355: User added source 'noob' (text_ft2_source_v2) to scene 'Сцена'
+16:45:16.584: User added source 'description' (text_ft2_source_v2) to scene 'Сцена'
+16:45:39.433: User Removed source 'Захват окна (Xcomposite)' (xcomposite_input) from scene 'Сцена'
+16:45:39.433: User Removed source 'Захват экрана (XSHM)' (xshm_input_v2) from scene 'Сцена'
+16:45:39.433: User Removed source 'CHAT' (text_ft2_source_v2) from scene 'Сцена'
+16:45:39.433: User Removed source 'description' (text_ft2_source_v2) from scene 'Сцена'
+16:45:39.433: User Removed source 'Изображение' (image_source) from scene 'Сцена'
+16:45:39.433: User Removed source 'noob' (text_ft2_source_v2) from scene 'Сцена'
+16:45:39.434: User Removed source 'description' (text_ft2_source_v2) from scene 'Сцена'
+16:45:39.438: User added source 'Захват окна (Xcomposite)' (xcomposite_input) to scene 'Сцена'
+16:45:39.441: User added source 'Захват экрана (XSHM)' (xshm_input_v2) to scene 'Сцена'
+16:45:39.447: User added source 'CHAT' (text_ft2_source_v2) to scene 'Сцена'
+16:45:39.452: User added source 'description' (text_ft2_source_v2) to scene 'Сцена'
+16:45:39.456: User added source 'Изображение' (image_source) to scene 'Сцена'
+16:45:39.460: User added source 'noob' (text_ft2_source_v2) to scene 'Сцена'
+16:45:48.624: User added source 'description 2' (text_ft2_source_v2) to scene 'Сцена'
+16:48:36.321: Get on org.freedesktop.portal.Settings returned an invalid reply
+16:48:36.321: Get on org.freedesktop.portal.Settings returned an invalid reply
+16:49:04.462: Settings changed (stream 1)
+16:49:04.462: ------------------------------------------------
+16:49:15.106: Get on org.freedesktop.portal.Settings returned an invalid reply
+16:49:15.106: Get on org.freedesktop.portal.Settings returned an invalid reply
+16:49:32.643: User added source 'Фоновый цвет' (color_source_v3) to scene 'Сцена'
+16:52:41.323: ---------------------------------
+16:52:41.323: [x264 encoder: 'simple_video_stream'] preset: veryfast
+16:52:41.327: [x264 encoder: 'simple_video_stream'] settings:
+16:52:41.327: 	rate_control: CBR
+16:52:41.327: 	bitrate:      2500
+16:52:41.327: 	buffer size:  2500
+16:52:41.327: 	crf:          23
+16:52:41.327: 	fps_num:      60
+16:52:41.327: 	fps_den:      1
+16:52:41.327: 	width:        1280
+16:52:41.327: 	height:       720
+16:52:41.327: 	keyint:       120
+16:52:41.327: 
+16:52:41.327: [x264 encoder: 'simple_video_stream'] custom settings: 
+16:52:41.327: 	scenecut = 0
+16:52:41.352: libfdk_aac encoder created
+16:52:41.352: libfdk_aac bitrate: 160, channels: 2
+16:52:41.353: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://ingest.global-contribute.live-video.net/app...
+16:52:44.311: [rtmp stream: 'simple_stream'] Connection to rtmp://ingest.global-contribute.live-video.net/app (52.223.204.248) successful
+16:52:44.389: ==== Streaming Start ===============================================
+16:55:39.868: [Media Source 'Источник медиа']: settings:
+16:55:39.868: 	input:                   
+16:55:39.868: 	input_format:            (null)
+16:55:39.868: 	speed:                   100
+16:55:39.868: 	is_looping:              no
+16:55:39.868: 	is_linear_alpha:         no
+16:55:39.868: 	is_hw_decoding:          no
+16:55:39.868: 	is_clear_on_media_end:   yes
+16:55:39.868: 	restart_on_activate:     yes
+16:55:39.868: 	close_when_inactive:     no
+16:55:39.868: 	full_decode:             no
+16:55:39.868: 	ffmpeg_options:          
+16:55:39.872: User added source 'Источник медиа' (ffmpeg_source) to scene 'Сцена'
+16:55:52.480: User Removed source 'Источник медиа' (ffmpeg_source) from scene 'Сцена'
+16:56:23.789: [Media Source 'Источник медиа']: settings:
+16:56:23.789: 	input:                   
+16:56:23.789: 	input_format:            (null)
+16:56:23.789: 	speed:                   100
+16:56:23.789: 	is_looping:              no
+16:56:23.789: 	is_linear_alpha:         no
+16:56:23.789: 	is_hw_decoding:          no
+16:56:23.789: 	is_clear_on_media_end:   yes
+16:56:23.789: 	restart_on_activate:     yes
+16:56:23.789: 	close_when_inactive:     no
+16:56:23.789: 	full_decode:             no
+16:56:23.789: 	ffmpeg_options:          
+16:56:23.796: User added source 'Источник медиа' (ffmpeg_source) to scene 'Сцена'
+16:56:40.288: User Removed source 'Источник медиа' (ffmpeg_source) from scene 'Сцена'
+17:01:16.502: Get on org.freedesktop.portal.Settings returned an invalid reply
+17:01:16.502: Get on org.freedesktop.portal.Settings returned an invalid reply
+17:03:11.306: User added source 'Захват окна (Xcomposite) 2' (xcomposite_input) to scene 'Сцена'
+17:03:16.167: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:03:16.167: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:03:16.167: 	class: Navigator
+17:03:16.167: 
+17:03:16.168: xcb_composite_name_window_pixmap failed
+17:04:46.536: User Removed source 'Захват окна (Xcomposite) 2' (xcomposite_input) from scene 'Сцена'
+17:05:08.285: [Media Source 'Источник медиа']: settings:
+17:05:08.285: 	input:                   
+17:05:08.285: 	input_format:            (null)
+17:05:08.285: 	speed:                   100
+17:05:08.285: 	is_looping:              no
+17:05:08.285: 	is_linear_alpha:         no
+17:05:08.285: 	is_hw_decoding:          no
+17:05:08.285: 	is_clear_on_media_end:   yes
+17:05:08.285: 	restart_on_activate:     yes
+17:05:08.285: 	close_when_inactive:     no
+17:05:08.285: 	full_decode:             no
+17:05:08.285: 	ffmpeg_options:          
+17:05:08.292: User added source 'Источник медиа' (ffmpeg_source) to scene 'Сцена'
+17:06:14.896: User added source 'Захват окна (Xcomposite) 2' (xcomposite_input) to scene 'Сцена'
+17:06:17.265: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:06:17.265: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:06:17.265: 	class: Navigator
+17:06:17.265: 
+17:06:17.265: xcb_composite_name_window_pixmap failed
+17:06:25.881: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:06:25.881: 	title: Twitch — Mozilla Firefox
+17:06:25.881: 	class: Navigator
+17:06:25.881: 
+17:06:25.882: xcb_composite_name_window_pixmap failed
+17:06:27.664: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:06:27.664: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:06:27.664: 	class: Navigator
+17:06:27.664: 
+17:06:27.664: xcb_composite_name_window_pixmap failed
+17:06:31.497: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:06:31.497: 	title: TETR.IO
+17:06:31.497: 	class: tetrio-desktop
+17:06:31.497: 
+17:06:31.497: xcb_composite_name_window_pixmap failed
+17:06:33.149: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:06:33.149: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:06:33.149: 	class: Navigator
+17:06:33.149: 
+17:06:33.149: xcb_composite_name_window_pixmap failed
+17:06:41.513: User Removed source 'Захват окна (Xcomposite) 2' (xcomposite_input) from scene 'Сцена'
+17:07:01.807: User Removed source 'Источник медиа' (ffmpeg_source) from scene 'Сцена'
+17:07:07.228: User added source 'Захват окна (Xcomposite) 2' (xcomposite_input) to scene 'Сцена'
+17:07:10.665: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:10.665: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:10.665: 	class: Navigator
+17:07:10.665: 
+17:07:10.665: xcb_composite_name_window_pixmap failed
+17:07:31.031: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:31.031: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:31.031: 	class: Navigator
+17:07:31.031: 
+17:07:32.614: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:32.614: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:32.614: 	class: Navigator
+17:07:32.614: 
+17:07:33.132: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:33.132: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:33.132: 	class: Navigator
+17:07:33.132: 
+17:07:37.714: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:37.714: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:37.714: 	class: Navigator
+17:07:37.714: 
+17:07:37.881: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:37.881: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:37.881: 	class: Navigator
+17:07:37.881: 
+17:07:38.032: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:38.032: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:38.032: 	class: Navigator
+17:07:38.032: 
+17:07:38.964: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:38.964: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:38.964: 	class: Navigator
+17:07:38.964: 
+17:07:39.265: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:39.265: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:39.265: 	class: Navigator
+17:07:39.265: 
+17:07:39.314: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:39.314: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:39.314: 	class: Navigator
+17:07:39.314: 
+17:07:39.348: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:39.348: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:39.348: 	class: Navigator
+17:07:39.348: 
+17:07:40.047: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.047: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.047: 	class: Navigator
+17:07:40.047: 
+17:07:40.082: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.082: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.082: 	class: Navigator
+17:07:40.082: 
+17:07:40.102: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.102: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.102: 	class: Navigator
+17:07:40.102: 
+17:07:40.116: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.116: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.116: 	class: Navigator
+17:07:40.116: 
+17:07:40.148: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.148: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.148: 	class: Navigator
+17:07:40.148: 
+17:07:40.198: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.198: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.198: 	class: Navigator
+17:07:40.198: 
+17:07:40.247: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.247: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.247: 	class: Navigator
+17:07:40.247: 
+17:07:40.547: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.547: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.547: 	class: Navigator
+17:07:40.547: 
+17:07:40.564: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.564: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.564: 	class: Navigator
+17:07:40.564: 
+17:07:40.583: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.583: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.583: 	class: Navigator
+17:07:40.583: 
+17:07:40.614: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.614: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.614: 	class: Navigator
+17:07:40.614: 
+17:07:40.633: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.633: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.633: 	class: Navigator
+17:07:40.633: 
+17:07:40.664: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.664: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.664: 	class: Navigator
+17:07:40.664: 
+17:07:40.713: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.713: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.713: 	class: Navigator
+17:07:40.713: 
+17:07:40.997: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:40.997: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:40.997: 	class: Navigator
+17:07:40.997: 
+17:07:41.014: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.014: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.014: 	class: Navigator
+17:07:41.014: 
+17:07:41.047: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.047: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.047: 	class: Navigator
+17:07:41.047: 
+17:07:41.068: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.068: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.068: 	class: Navigator
+17:07:41.068: 
+17:07:41.098: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.098: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.098: 	class: Navigator
+17:07:41.098: 
+17:07:41.131: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.131: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.131: 	class: Navigator
+17:07:41.131: 
+17:07:41.414: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:07:41.414: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:07:41.414: 	class: Navigator
+17:07:41.414: 
+17:28:18.931: Last log entry repeated for 391 more lines
+17:28:18.931: xcb_composite_name_window_pixmap failed
+17:28:18.998: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:18.998: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:18.998: 	class: Navigator
+17:28:18.998: 
+17:28:18.998: xcb_composite_name_window_pixmap failed
+17:28:19.065: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:19.065: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:19.065: 	class: Navigator
+17:28:19.065: 
+17:28:19.065: xcb_composite_name_window_pixmap failed
+17:28:19.582: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:19.582: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:19.582: 	class: Navigator
+17:28:19.582: 
+17:28:19.582: xcb_composite_name_window_pixmap failed
+17:28:19.852: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:19.852: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:19.852: 	class: Navigator
+17:28:19.852: 
+17:28:19.853: xcb_composite_name_window_pixmap failed
+17:28:19.999: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:19.999: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:19.999: 	class: Navigator
+17:28:19.999: 
+17:28:19.999: xcb_composite_name_window_pixmap failed
+17:28:49.715: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:49.715: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:49.715: 	class: Navigator
+17:28:49.715: 
+17:28:49.735: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:49.735: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:49.735: 	class: Navigator
+17:28:49.735: 
+17:28:49.750: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:49.750: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:49.750: 	class: Navigator
+17:28:49.750: 
+17:28:49.782: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:49.782: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:49.782: 	class: Navigator
+17:28:49.782: 
+17:28:49.815: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:49.815: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:49.815: 	class: Navigator
+17:28:49.815: 
+17:28:50.098: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.098: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.098: 	class: Navigator
+17:28:50.098: 
+17:28:50.132: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.132: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.132: 	class: Navigator
+17:28:50.132: 
+17:28:50.166: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.166: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.166: 	class: Navigator
+17:28:50.166: 
+17:28:50.218: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.218: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.218: 	class: Navigator
+17:28:50.218: 
+17:28:50.301: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.301: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.301: 	class: Navigator
+17:28:50.301: 
+17:28:50.365: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.365: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.365: 	class: Navigator
+17:28:50.365: 
+17:28:50.752: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.752: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.752: 	class: Navigator
+17:28:50.752: 
+17:28:50.800: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.800: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.800: 	class: Navigator
+17:28:50.800: 
+17:28:50.850: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.850: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.850: 	class: Navigator
+17:28:50.850: 
+17:28:50.870: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.870: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.870: 	class: Navigator
+17:28:50.870: 
+17:28:50.933: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:50.933: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:50.933: 	class: Navigator
+17:28:50.933: 
+17:28:51.182: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.182: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.182: 	class: Navigator
+17:28:51.182: 
+17:28:51.200: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.200: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.200: 	class: Navigator
+17:28:51.200: 
+17:28:51.232: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.232: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.232: 	class: Navigator
+17:28:51.232: 
+17:28:51.286: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.286: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.286: 	class: Navigator
+17:28:51.286: 
+17:28:51.549: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.549: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.549: 	class: Navigator
+17:28:51.549: 
+17:28:51.582: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.582: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.582: 	class: Navigator
+17:28:51.582: 
+17:28:51.602: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.602: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.602: 	class: Navigator
+17:28:51.602: 
+17:28:51.618: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.618: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.618: 	class: Navigator
+17:28:51.618: 
+17:28:51.648: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.648: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.648: 	class: Navigator
+17:28:51.648: 
+17:28:51.669: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.669: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.669: 	class: Navigator
+17:28:51.669: 
+17:28:51.731: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.731: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.731: 	class: Navigator
+17:28:51.731: 
+17:28:51.935: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.935: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.935: 	class: Navigator
+17:28:51.935: 
+17:28:51.969: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.969: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.969: 	class: Navigator
+17:28:51.969: 
+17:28:51.985: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:51.985: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:51.985: 	class: Navigator
+17:28:51.985: 
+17:28:52.016: [window-capture: 'Захват окна (Xcomposite) 2'] update settings:
+17:28:52.016: 	title: Чат канала vidy007 - Twitch — Mozilla Firefox
+17:28:52.016: 	class: Navigator
+17:28:52.016: 
+18:21:46.511: Last log entry repeated for 216 more lines
+18:21:46.511: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Микр/доп)
+18:21:46.511: 
+18:24:34.949: [rtmp stream: 'simple_stream'] User stopped the stream
+18:24:34.949: Output 'simple_stream': stopping
+18:24:34.949: Output 'simple_stream': Total frames output: 330609
+18:24:34.949: Output 'simple_stream': Total drawn frames: 330521 (330816 attempted)
+18:24:34.949: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 295 (0.1%)
+18:24:34.950: ==== Streaming Stop ================================================
+18:24:34.960: libfdk_aac encoder destroyed
+18:24:40.408: ==== Shutting down ==================================================
+18:24:40.440: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor'
+18:24:40.440: pulse-input: Got 278453 packets with 334143600 frames
+18:24:40.440: pulse-input: Stopped recording from 'alsa_input.pci-0000_07_00.6.analog-stereo'
+18:24:40.440: pulse-input: Got 278452 packets with 334142400 frames
+18:24:40.469: All scene data cleared
+18:24:40.469: ------------------------------------------------
+18:24:40.559: [Scripting] Total detached callbacks: 0
+18:24:40.559: Freeing OBS context data
+18:24:40.629: == Profiler Results =============================
+18:24:40.629: run_program_init: 1601.45 ms
+18:24:40.629:  ┣OBSApp::AppInit: 44.358 ms
+18:24:40.629:  ┃ ┗OBSApp::InitLocale: 12.326 ms
+18:24:40.629:  ┗OBSApp::OBSInit: 1436.44 ms
+18:24:40.629:    ┣obs_startup: 2.674 ms
+18:24:40.629:    ┗OBSBasic::OBSInit: 1361.23 ms
+18:24:40.629:      ┣OBSBasic::InitBasicConfig: 2.091 ms
+18:24:40.629:      ┣OBSBasic::ResetAudio: 0.563 ms
+18:24:40.629:      ┣OBSBasic::ResetVideo: 243.928 ms
+18:24:40.629:      ┃ ┗obs_init_graphics: 226.961 ms
+18:24:40.629:      ┃   ┗shader compilation: 100.766 ms
+18:24:40.629:      ┣OBSBasic::InitOBSCallbacks: 0.008 ms
+18:24:40.629:      ┣OBSBasic::InitHotkeys: 0.041 ms
+18:24:40.629:      ┣obs_load_all_modules2: 912.202 ms
+18:24:40.629:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+18:24:40.629:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+18:24:40.629:      ┃ ┣obs_init_module(decklink.so): 0.566 ms
+18:24:40.629:      ┃ ┣obs_init_module(frontend-tools.so): 157.949 ms
+18:24:40.629:      ┃ ┣obs_init_module(image-source.so): 0.02 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-capture.so): 0.861 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-pipewire.so): 18.554 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.016 ms
+18:24:40.629:      ┃ ┣obs_init_module(linux-v4l2.so): 6.829 ms
+18:24:40.629:      ┃ ┣obs_init_module(obs-ffmpeg.so): 27.141 ms
+18:24:40.629:      ┃ ┣obs_init_module(obs-filters.so): 0.038 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-libfdk.so): 0.004 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-nvenc.so): 0.354 ms
+18:24:40.630:      ┃ ┃ ┗nvenc_check: 0.322 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-outputs.so): 0.011 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-qsv11.so): 20.196 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-transitions.so): 0.014 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-vst.so): 0.007 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-webrtc.so): 0.014 ms
+18:24:40.630:      ┃ ┣obs_init_module(obs-x264.so): 0.005 ms
+18:24:40.630:      ┃ ┣obs_init_module(rtmp-services.so): 2.615 ms
+18:24:40.630:      ┃ ┗obs_init_module(text-freetype2.so): 0.029 ms
+18:24:40.630:      ┣OBSBasic::InitService: 3.603 ms
+18:24:40.630:      ┣OBSBasic::ResetOutputs: 0.362 ms
+18:24:40.630:      ┣OBSBasic::CreateHotkeys: 0.036 ms
+18:24:40.630:      ┣OBSBasic::InitPrimitives: 0.098 ms
+18:24:40.630:      ┗OBSBasic::Load: 44.815 ms
+18:24:40.630: obs_hotkey_thread(25 ms): min=0.074 ms, median=0.176 ms, max=35.83 ms, 99th percentile=5.126 ms, 99.9978% below 25 ms
+18:24:40.630: audio_thread(Audio): min=0.017 ms, median=0.646 ms, max=14.353 ms, 99th percentile=2.668 ms
+18:24:40.630:  ┗receive_audio: min=0.004 ms, median=0.534 ms, max=12.56 ms, 99th percentile=2.082 ms, 0.79143 calls per parent call
+18:24:40.630:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=1.753 ms, 99th percentile=0.008 ms
+18:24:40.630:    ┗do_encode: min=0.079 ms, median=0.526 ms, max=12.541 ms, 99th percentile=2.07 ms
+18:24:40.630:      ┣encode(simple_aac): min=0.069 ms, median=0.498 ms, max=12.502 ms, 99th percentile=1.924 ms
+18:24:40.630:      ┗send_packet: min=0.001 ms, median=0.022 ms, max=8.294 ms, 99th percentile=0.19 ms
+18:24:40.630: obs_graphics_thread(16.6667 ms): min=0.184 ms, median=5.834 ms, max=57.957 ms, 99th percentile=14.579 ms, 99.4275% below 16.667 ms
+18:24:40.630:  ┣tick_sources: min=0 ms, median=4.316 ms, max=37.297 ms, 99th percentile=11.18 ms
+18:24:40.631:  ┣output_frame: min=0.136 ms, median=1.116 ms, max=12.265 ms, 99th percentile=2.904 ms
+18:24:40.631:  ┃ ┣gs_context(video->graphics): min=0.136 ms, median=0.733 ms, max=12.028 ms, 99th percentile=2.19 ms
+18:24:40.631:  ┃ ┃ ┣render_video: min=0.019 ms, median=0.399 ms, max=7.514 ms, 99th percentile=0.948 ms
+18:24:40.631:  ┃ ┃ ┃ ┣render_main_texture: min=0.015 ms, median=0.29 ms, max=7.386 ms, 99th percentile=0.684 ms
+18:24:40.631:  ┃ ┃ ┃ ┣render_output_texture: min=0.015 ms, median=0.037 ms, max=5.157 ms, 99th percentile=0.097 ms, 0.791334 calls per parent call
+18:24:40.631:  ┃ ┃ ┃ ┣render_convert_texture: min=0.022 ms, median=0.047 ms, max=4.606 ms, 99th percentile=0.105 ms, 0.791334 calls per parent call
+18:24:40.631:  ┃ ┃ ┃ ┗stage_output_texture: min=0.012 ms, median=0.03 ms, max=4.624 ms, 99th percentile=0.074 ms, 0.791334 calls per parent call
+18:24:40.631:  ┃ ┃ ┣gs_flush: min=0.002 ms, median=0.169 ms, max=9.632 ms, 99th percentile=0.925 ms
+18:24:40.631:  ┃ ┃ ┗download_frame: min=0 ms, median=0.123 ms, max=4.835 ms, 99th percentile=0.321 ms, 0.791334 calls per parent call
+18:24:40.631:  ┃ ┗output_video_data: min=0.177 ms, median=0.406 ms, max=8.596 ms, 99th percentile=0.839 ms, 0.791331 calls per parent call
+18:24:40.631:  ┗render_displays: min=0.002 ms, median=0.078 ms, max=57.47 ms, 99th percentile=3.458 ms
+18:24:40.631: OBSBasicSettings::LoadThemeList: min=0.099 ms, median=0.128 ms, max=0.171 ms, 99th percentile=0.171 ms
+18:24:40.631: video_thread(video): min=0.69 ms, median=1.484 ms, max=47.772 ms, 99th percentile=3.563 ms
+18:24:40.631:  ┗receive_video: min=0.688 ms, median=1.481 ms, max=44.916 ms, 99th percentile=3.543 ms
+18:24:40.631:    ┗do_encode: min=0.687 ms, median=1.479 ms, max=44.914 ms, 99th percentile=3.541 ms
+18:24:40.631:      ┣encode(simple_video_stream): min=0.676 ms, median=1.45 ms, max=44.894 ms, 99th percentile=3.4 ms
+18:24:40.631:      ┗send_packet: min=0.002 ms, median=0.02 ms, max=9.895 ms, 99th percentile=0.14 ms
+18:24:40.631: =================================================
+18:24:40.631: == Profiler Time Between Calls ==================
+18:24:40.631: obs_hotkey_thread(25 ms): min=25.121 ms, median=25.265 ms, max=64.921 ms, 74.7007% within ±2% of 25 ms (0% lower, 25.2993% higher)
+18:24:40.631: obs_graphics_thread(16.6667 ms): min=7.065 ms, median=16.667 ms, max=57.969 ms, 96.1461% within ±2% of 16.667 ms (1.88645% lower, 1.96742% higher)
+18:24:40.631: =================================================
+18:24:40.761: Number of memory leaks: 0

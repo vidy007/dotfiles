@@ -1,0 +1,714 @@
+17:41:48.846: Using EGL/X11
+17:41:48.846: CPU Name: AMD Ryzen 5 2400G with Radeon Vega Graphics
+17:41:48.846: CPU Speed: 3771.206MHz
+17:41:48.847: Physical Cores: 4, Logical Cores: 8
+17:41:48.847: Physical Memory: 13920MB Total, 709MB Free
+17:41:48.847: Kernel Version: Linux 6.12.1-arch1-1
+17:41:48.847: Distribution: "Arch Linux" Unknown
+17:41:48.847: Session Type: tty
+17:41:48.847: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:41:48.849: Qt Version: 6.8.0 (runtime), 6.8.0 (compiled)
+17:41:48.849: Portable mode: false
+17:41:48.947: OBS 30.2.3-1 (linux)
+17:41:48.947: ---------------------------------
+17:41:48.948: ---------------------------------
+17:41:48.948: audio settings reset:
+17:41:48.948: 	samples per sec: 48000
+17:41:48.948: 	speakers:        2
+17:41:48.948: 	max buffering:   960 milliseconds
+17:41:48.948: 	buffering type:  dynamically increasing
+17:41:48.959: ---------------------------------
+17:41:48.960: Initializing OpenGL...
+17:41:49.073: Loading up OpenGL on adapter AMD AMD Radeon Vega 11 Graphics (radeonsi, raven, LLVM 18.1.8, DRM 3.59, 6.12.1-arch1-1)
+17:41:49.073: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.2.7-arch1.1, shading language 4.60
+17:41:49.135: ---------------------------------
+17:41:49.135: video settings reset:
+17:41:49.135: 	base resolution:   1920x1080
+17:41:49.135: 	output resolution: 1280x720
+17:41:49.135: 	downscale filter:  Bicubic
+17:41:49.135: 	fps:               60/1
+17:41:49.135: 	format:            NV12
+17:41:49.135: 	YUV mode:          Rec. 709/Partial
+17:41:49.135: NV12 texture support enabled
+17:41:49.135: P010 texture support not available
+17:41:49.144: Audio monitoring device:
+17:41:49.144: 	name: По умолчанию
+17:41:49.144: 	id: default
+17:41:49.144: ---------------------------------
+17:41:49.160: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:41:49.181: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:41:49.197: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:41:49.197: Failed to initialize module 'decklink.so'
+17:41:49.522: [pipewire] No capture sources available
+17:41:49.571: v4l2loopback not installed, virtual camera not registered
+17:41:49.721: VAAPI: API version 1.22
+17:41:49.722: FFmpeg VAAPI H264 encoding supported
+17:41:49.730: FFmpeg VAAPI AV1 encoding not supported
+17:41:49.739: FFmpeg VAAPI HEVC encoding supported
+17:41:50.028: ---------------------------------
+17:41:50.028:   Loaded Modules:
+17:41:50.028:     text-freetype2.so
+17:41:50.028:     rtmp-services.so
+17:41:50.028:     obs-x264.so
+17:41:50.028:     obs-webrtc.so
+17:41:50.028:     obs-vst.so
+17:41:50.028:     obs-transitions.so
+17:41:50.028:     obs-qsv11.so
+17:41:50.028:     obs-outputs.so
+17:41:50.028:     obs-libfdk.so
+17:41:50.028:     obs-filters.so
+17:41:50.028:     obs-ffmpeg.so
+17:41:50.028:     linux-v4l2.so
+17:41:50.028:     linux-pulseaudio.so
+17:41:50.028:     linux-pipewire.so
+17:41:50.028:     linux-jack.so
+17:41:50.028:     linux-capture.so
+17:41:50.028:     linux-alsa.so
+17:41:50.028:     image-source.so
+17:41:50.028:     frontend-tools.so
+17:41:50.028:     decklink-output-ui.so
+17:41:50.028:     decklink-captions.so
+17:41:50.028: ---------------------------------
+17:41:50.029: ---------------------------------
+17:41:50.030: Available Encoders:
+17:41:50.030:   Video Encoders:
+17:41:50.030: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:41:50.030: 	- ffmpeg_aom_av1 (AOM AV1)
+17:41:50.030: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+17:41:50.030: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+17:41:50.030: 	- obs_x264 (x264)
+17:41:50.030:   Audio Encoders:
+17:41:50.030: 	- ffmpeg_aac (FFmpeg AAC)
+17:41:50.030: 	- ffmpeg_opus (FFmpeg Opus)
+17:41:50.030: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16 бит))
+17:41:50.030: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24 бита))
+17:41:50.030: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32 бита с пл. тчк.))
+17:41:50.030: 	- ffmpeg_alac (FFmpeg ALAC (24 бита))
+17:41:50.030: 	- ffmpeg_flac (FFmpeg FLAC (16 бит))
+17:41:50.030: 	- libfdk_aac (libfdk AAC)
+17:41:50.030: ==== Startup complete ===============================================
+17:41:50.079: All scene data cleared
+17:41:50.080: ------------------------------------------------
+17:41:50.086: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+17:41:50.086: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:41:50.086: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+17:41:50.086: [Loaded global audio device]: 'Рабочий стол'
+17:41:50.087: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+17:41:50.087: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:41:50.087: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+17:41:50.087: [Loaded global audio device]: 'Микр/доп'
+17:41:50.089: [window-capture: 'Захват окна (Xcomposite)'] update settings:
+17:41:50.089: 	title: TETR.IO
+17:41:50.089: 	class: tetrio-desktop
+17:41:50.089: 
+17:41:50.089: xcb_composite_name_window_pixmap failed
+17:41:50.090: Switched to scene 'Сцена'
+17:41:50.091: ------------------------------------------------
+17:41:50.091: Loaded scenes:
+17:41:50.091: - scene 'Сцена':
+17:41:50.091:     - source: 'Захват окна (Xcomposite)' (xcomposite_input)
+17:41:50.091: ------------------------------------------------
+17:41:50.677: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Рабочий стол)
+17:41:50.677: 
+17:41:55.511: ---------------------------------
+17:41:55.511: [x264 encoder: 'simple_video_recording'] preset: veryfast
+17:41:55.511: [x264 encoder: 'simple_video_recording'] profile: high
+17:41:55.515: [x264 encoder: 'simple_video_recording'] settings:
+17:41:55.515: 	rate_control: CRF
+17:41:55.515: 	bitrate:      0
+17:41:55.515: 	buffer size:  0
+17:41:55.515: 	crf:          21
+17:41:55.515: 	fps_num:      60
+17:41:55.515: 	fps_den:      1
+17:41:55.515: 	width:        1280
+17:41:55.515: 	height:       720
+17:41:55.515: 	keyint:       250
+17:41:55.515: 
+17:41:55.540: libfdk_aac encoder created
+17:41:55.540: libfdk_aac bitrate: 192, channels: 2
+17:41:55.601: ==== Recording Start ===============================================
+17:41:55.601: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/artem/2024-12-18_17-41-55.mkv'...
+17:41:57.860: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/artem/2024-12-18_17-41-55.mkv' stopped
+17:41:57.860: Output 'simple_file_output': stopping
+17:41:57.860: Output 'simple_file_output': Total frames output: 111
+17:41:57.860: Output 'simple_file_output': Total drawn frames: 136
+17:41:57.861: ==== Recording Stop ================================================
+17:41:57.872: libfdk_aac encoder destroyed
+17:42:03.212: Get on org.freedesktop.portal.Settings returned an invalid reply
+17:42:03.212: Get on org.freedesktop.portal.Settings returned an invalid reply
+17:42:03.336:   OpenType support missing for "Open Sans", script 11
+17:42:03.337:   OpenType support missing for "Arial", script 11
+17:42:03.342:   OpenType support missing for "Open Sans", script 12
+17:42:03.344:   OpenType support missing for "Arial", script 12
+17:42:03.344:   OpenType support missing for "DejaVu Sans", script 12
+17:42:03.345:   OpenType support missing for "Verdana", script 12
+17:42:03.346:   OpenType support missing for "Carlito", script 12
+17:42:03.346:   OpenType support missing for "Font Awesome 6 Brands", script 12
+17:42:03.346:   OpenType support missing for "Font Awesome 6 Free", script 12
+17:42:03.347:   OpenType support missing for "Font Awesome v4 Compatibility", script 12
+17:42:03.347:   OpenType support missing for "Font Awesome 5 Brands", script 12
+17:42:03.348:   OpenType support missing for "Font Awesome 5 Free", script 12
+17:42:03.348:   OpenType support missing for "IBM Plex Sans", script 12
+17:42:03.349:   OpenType support missing for "IBM Plex Serif", script 12
+17:42:03.349:   OpenType support missing for "Times New Roman", script 12
+17:42:03.350:   OpenType support missing for "Courier New", script 12
+17:42:03.350:   OpenType support missing for "DejaVu Sans Mono", script 12
+17:42:03.350:   OpenType support missing for "DejaVu Serif", script 12
+17:42:03.351:   OpenType support missing for "DejaVu Math TeX Gyre", script 12
+17:42:03.352:   OpenType support missing for "Liberation Mono", script 12
+17:42:03.352:   OpenType support missing for "Liberation Sans", script 12
+17:42:03.353:   OpenType support missing for "Liberation Serif", script 12
+17:42:03.353:   OpenType support missing for "Arial Black", script 12
+17:42:03.354:   OpenType support missing for "Source Code Pro", script 12
+17:42:03.354:   OpenType support missing for "BlexMono Nerd Font", script 12
+17:42:03.355:   OpenType support missing for "BlexMono Nerd Font Mono", script 12
+17:42:03.355:   OpenType support missing for "BlexMono Nerd Font Propo", script 12
+17:42:03.356:   OpenType support missing for "IBM Plex Mono", script 12
+17:42:03.356:   OpenType support missing for "Andale Mono", script 12
+17:42:03.357:   OpenType support missing for "SourceCodeVF", script 12
+17:42:03.358:   OpenType support missing for "IBM Plex Sans Arabic", script 12
+17:42:03.359:   OpenType support missing for "IBM Plex Sans Hebrew", script 12
+17:42:03.359:   OpenType support missing for "IBM Plex Sans Devanagari", script 12
+17:42:03.360:   OpenType support missing for "IBM Plex Sans Thai", script 12
+17:42:03.361:   OpenType support missing for "IBM Plex Sans Thai Looped", script 12
+17:42:03.362:   OpenType support missing for "IBM Plex Sans JP", script 12
+17:42:03.363:   OpenType support missing for "IBM Plex Sans KR", script 12
+17:42:03.363:   OpenType support missing for "Comic Sans MS", script 12
+17:42:03.363:   OpenType support missing for "Georgia", script 12
+17:42:03.364:   OpenType support missing for "IBM Plex Sans TC", script 12
+17:42:03.364:   OpenType support missing for "Trebuchet MS", script 12
+17:42:03.365:   OpenType support missing for "Cantarell", script 12
+17:42:03.365:   OpenType support missing for "Impact", script 12
+17:42:03.366:   OpenType support missing for "IBM Plex Sans Condensed", script 12
+17:42:03.366:   OpenType support missing for "Terminus", script 12
+17:42:03.367:   OpenType support missing for "Noto Color Emoji", script 12
+17:42:03.368:   OpenType support missing for "Symbola", script 12
+17:42:03.368:   OpenType support missing for "Webdings", script 12
+17:42:03.369:   OpenType support missing for "", script 12
+17:42:03.369:   OpenType support missing for "", script 12
+17:42:03.370:   OpenType support missing for "", script 12
+17:42:03.370:   OpenType support missing for "", script 12
+17:42:03.370:   OpenType support missing for "", script 12
+17:42:03.371:   OpenType support missing for "", script 12
+17:42:03.371:   OpenType support missing for "", script 12
+17:42:03.372:   OpenType support missing for "", script 12
+17:42:03.372:   OpenType support missing for "", script 12
+17:42:03.373:   OpenType support missing for "", script 12
+17:42:03.374:   OpenType support missing for "", script 12
+17:42:03.375:   OpenType support missing for "", script 12
+17:42:03.375:   OpenType support missing for "", script 12
+17:42:03.376:   OpenType support missing for "", script 12
+17:42:03.377:   OpenType support missing for "", script 12
+17:42:03.378:   OpenType support missing for "", script 12
+17:42:03.379:   OpenType support missing for "", script 12
+17:42:03.379:   OpenType support missing for "", script 12
+17:42:03.379:   OpenType support missing for "", script 12
+17:42:03.380:   OpenType support missing for "", script 12
+17:42:03.380:   OpenType support missing for "", script 12
+17:42:03.381:   OpenType support missing for "", script 12
+17:42:03.382:   OpenType support missing for "", script 12
+17:42:03.382:   OpenType support missing for "", script 12
+17:42:03.383:   OpenType support missing for "", script 12
+17:42:03.383:   OpenType support missing for "", script 12
+17:42:03.384:   OpenType support missing for "", script 12
+17:42:03.384:   OpenType support missing for "", script 12
+17:42:03.385:   OpenType support missing for "", script 12
+17:42:03.387:   OpenType support missing for "", script 12
+17:42:03.387:   OpenType support missing for "", script 12
+17:42:03.437: Last log entry repeated for 66 more lines
+17:42:03.437:   OpenType support missing for "DejaVu Sans", script 12
+17:42:03.438:   OpenType support missing for "Verdana", script 12
+17:42:03.438:   OpenType support missing for "Arial", script 12
+17:42:03.439:   OpenType support missing for "Carlito", script 12
+17:42:03.439:   OpenType support missing for "Font Awesome 6 Brands", script 12
+17:42:03.440:   OpenType support missing for "Font Awesome 6 Free", script 12
+17:42:03.441:   OpenType support missing for "Font Awesome v4 Compatibility", script 12
+17:42:03.442:   OpenType support missing for "Font Awesome 5 Brands", script 12
+17:42:03.442:   OpenType support missing for "Font Awesome 5 Free", script 12
+17:42:03.443:   OpenType support missing for "IBM Plex Sans", script 12
+17:42:03.444:   OpenType support missing for "IBM Plex Serif", script 12
+17:42:03.445:   OpenType support missing for "Times New Roman", script 12
+17:42:03.446:   OpenType support missing for "Courier New", script 12
+17:42:03.446:   OpenType support missing for "DejaVu Sans Mono", script 12
+17:42:03.446:   OpenType support missing for "DejaVu Serif", script 12
+17:42:03.447:   OpenType support missing for "DejaVu Math TeX Gyre", script 12
+17:42:03.447:   OpenType support missing for "Liberation Mono", script 12
+17:42:03.448:   OpenType support missing for "Liberation Sans", script 12
+17:42:03.449:   OpenType support missing for "Liberation Serif", script 12
+17:42:03.449:   OpenType support missing for "Arial Black", script 12
+17:42:03.450:   OpenType support missing for "Source Code Pro", script 12
+17:42:03.450:   OpenType support missing for "BlexMono Nerd Font", script 12
+17:42:03.451:   OpenType support missing for "BlexMono Nerd Font Mono", script 12
+17:42:03.451:   OpenType support missing for "BlexMono Nerd Font Propo", script 12
+17:42:03.451:   OpenType support missing for "IBM Plex Mono", script 12
+17:42:03.452:   OpenType support missing for "Andale Mono", script 12
+17:42:03.452:   OpenType support missing for "Open Sans", script 12
+17:42:03.453:   OpenType support missing for "SourceCodeVF", script 12
+17:42:03.453:   OpenType support missing for "IBM Plex Sans Arabic", script 12
+17:42:03.454:   OpenType support missing for "IBM Plex Sans Hebrew", script 12
+17:42:03.454:   OpenType support missing for "IBM Plex Sans Devanagari", script 12
+17:42:03.455:   OpenType support missing for "IBM Plex Sans Thai", script 12
+17:42:03.455:   OpenType support missing for "IBM Plex Sans Thai Looped", script 12
+17:42:03.456:   OpenType support missing for "IBM Plex Sans JP", script 12
+17:42:03.457:   OpenType support missing for "IBM Plex Sans KR", script 12
+17:42:03.457:   OpenType support missing for "Comic Sans MS", script 12
+17:42:03.458:   OpenType support missing for "Georgia", script 12
+17:42:03.459:   OpenType support missing for "IBM Plex Sans TC", script 12
+17:42:03.460:   OpenType support missing for "Trebuchet MS", script 12
+17:42:03.461:   OpenType support missing for "Cantarell", script 12
+17:42:03.463:   OpenType support missing for "Impact", script 12
+17:42:03.463:   OpenType support missing for "IBM Plex Sans Condensed", script 12
+17:42:03.464:   OpenType support missing for "Terminus", script 12
+17:42:03.466:   OpenType support missing for "Noto Color Emoji", script 12
+17:42:03.467:   OpenType support missing for "Symbola", script 12
+17:42:03.467:   OpenType support missing for "Webdings", script 12
+17:42:03.468:   OpenType support missing for "", script 12
+17:42:03.469:   OpenType support missing for "", script 12
+17:42:03.469:   OpenType support missing for "", script 12
+17:42:03.470:   OpenType support missing for "", script 12
+17:42:03.471:   OpenType support missing for "", script 12
+17:42:03.471:   OpenType support missing for "", script 12
+17:42:03.472:   OpenType support missing for "", script 12
+17:42:03.473:   OpenType support missing for "", script 12
+17:42:03.474:   OpenType support missing for "", script 12
+17:42:03.474:   OpenType support missing for "", script 12
+17:42:03.475:   OpenType support missing for "", script 12
+17:42:03.476:   OpenType support missing for "", script 12
+17:42:03.477:   OpenType support missing for "", script 12
+17:42:03.478:   OpenType support missing for "", script 12
+17:42:03.479:   OpenType support missing for "", script 12
+17:42:03.480:   OpenType support missing for "", script 12
+17:42:03.480:   OpenType support missing for "", script 12
+17:42:03.481:   OpenType support missing for "", script 12
+17:42:03.481:   OpenType support missing for "", script 12
+17:42:03.482:   OpenType support missing for "", script 12
+17:42:03.482:   OpenType support missing for "", script 12
+17:42:03.483:   OpenType support missing for "", script 12
+17:42:03.483:   OpenType support missing for "", script 12
+17:42:03.483:   OpenType support missing for "", script 12
+17:42:03.484:   OpenType support missing for "", script 12
+17:42:03.484:   OpenType support missing for "", script 12
+17:42:03.485:   OpenType support missing for "", script 12
+17:42:03.485:   OpenType support missing for "", script 12
+17:42:03.486:   OpenType support missing for "", script 12
+17:42:03.486:   OpenType support missing for "", script 12
+17:42:03.487:   OpenType support missing for "", script 12
+17:42:03.523: Last log entry repeated for 67 more lines
+17:42:03.523:   OpenType support missing for "Open Sans", script 16
+17:42:03.525:   OpenType support missing for "Arial", script 16
+17:42:03.525:   OpenType support missing for "DejaVu Sans", script 16
+17:42:03.525:   OpenType support missing for "Verdana", script 16
+17:42:03.526:   OpenType support missing for "Carlito", script 16
+17:42:03.527:   OpenType support missing for "Font Awesome 6 Brands", script 16
+17:42:03.528:   OpenType support missing for "Font Awesome 6 Free", script 16
+17:42:03.529:   OpenType support missing for "Font Awesome v4 Compatibility", script 16
+17:42:03.529:   OpenType support missing for "Font Awesome 5 Brands", script 16
+17:42:03.530:   OpenType support missing for "Font Awesome 5 Free", script 16
+17:42:03.530:   OpenType support missing for "IBM Plex Sans", script 16
+17:42:03.531:   OpenType support missing for "IBM Plex Serif", script 16
+17:42:03.531:   OpenType support missing for "Times New Roman", script 16
+17:42:03.531:   OpenType support missing for "Courier New", script 16
+17:42:03.532:   OpenType support missing for "DejaVu Sans Mono", script 16
+17:42:03.532:   OpenType support missing for "DejaVu Serif", script 16
+17:42:03.533:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+17:42:03.533:   OpenType support missing for "Liberation Mono", script 16
+17:42:03.534:   OpenType support missing for "Liberation Sans", script 16
+17:42:03.534:   OpenType support missing for "Liberation Serif", script 16
+17:42:03.535:   OpenType support missing for "Arial Black", script 16
+17:42:03.536:   OpenType support missing for "Source Code Pro", script 16
+17:42:03.536:   OpenType support missing for "BlexMono Nerd Font", script 16
+17:42:03.537:   OpenType support missing for "BlexMono Nerd Font Mono", script 16
+17:42:03.537:   OpenType support missing for "BlexMono Nerd Font Propo", script 16
+17:42:03.538:   OpenType support missing for "IBM Plex Mono", script 16
+17:42:03.538:   OpenType support missing for "Andale Mono", script 16
+17:42:03.539:   OpenType support missing for "SourceCodeVF", script 16
+17:42:03.539:   OpenType support missing for "IBM Plex Sans Arabic", script 16
+17:42:03.539:   OpenType support missing for "IBM Plex Sans Hebrew", script 16
+17:42:03.539:   OpenType support missing for "IBM Plex Sans Devanagari", script 16
+17:42:03.540:   OpenType support missing for "IBM Plex Sans Thai", script 16
+17:42:03.540:   OpenType support missing for "IBM Plex Sans Thai Looped", script 16
+17:42:03.541:   OpenType support missing for "IBM Plex Sans JP", script 16
+17:42:03.542:   OpenType support missing for "IBM Plex Sans KR", script 16
+17:42:03.542:   OpenType support missing for "Comic Sans MS", script 16
+17:42:03.542:   OpenType support missing for "Georgia", script 16
+17:42:03.543:   OpenType support missing for "IBM Plex Sans TC", script 16
+17:42:03.544:   OpenType support missing for "Trebuchet MS", script 16
+17:42:03.545:   OpenType support missing for "Cantarell", script 16
+17:42:03.546:   OpenType support missing for "Impact", script 16
+17:42:03.547:   OpenType support missing for "IBM Plex Sans Condensed", script 16
+17:42:03.548:   OpenType support missing for "Terminus", script 16
+17:42:03.549:   OpenType support missing for "Noto Color Emoji", script 16
+17:42:03.550:   OpenType support missing for "Symbola", script 16
+17:42:03.551:   OpenType support missing for "Webdings", script 16
+17:42:03.551:   OpenType support missing for "", script 16
+17:42:03.552:   OpenType support missing for "", script 16
+17:42:03.552:   OpenType support missing for "", script 16
+17:42:03.552:   OpenType support missing for "", script 16
+17:42:03.553:   OpenType support missing for "", script 16
+17:42:03.553:   OpenType support missing for "", script 16
+17:42:03.554:   OpenType support missing for "", script 16
+17:42:03.554:   OpenType support missing for "", script 16
+17:42:03.554:   OpenType support missing for "", script 16
+17:42:03.555:   OpenType support missing for "", script 16
+17:42:03.555:   OpenType support missing for "", script 16
+17:42:03.555:   OpenType support missing for "", script 16
+17:42:03.556:   OpenType support missing for "", script 16
+17:42:03.556:   OpenType support missing for "", script 16
+17:42:03.556:   OpenType support missing for "", script 16
+17:42:03.557:   OpenType support missing for "", script 16
+17:42:03.557:   OpenType support missing for "", script 16
+17:42:03.558:   OpenType support missing for "", script 16
+17:42:03.558:   OpenType support missing for "", script 16
+17:42:03.559:   OpenType support missing for "", script 16
+17:42:03.559:   OpenType support missing for "", script 16
+17:42:03.560:   OpenType support missing for "", script 16
+17:42:03.561:   OpenType support missing for "", script 16
+17:42:03.562:   OpenType support missing for "", script 16
+17:42:03.563:   OpenType support missing for "", script 16
+17:42:03.564:   OpenType support missing for "", script 16
+17:42:03.565:   OpenType support missing for "", script 16
+17:42:03.565:   OpenType support missing for "", script 16
+17:42:03.566:   OpenType support missing for "", script 16
+17:42:03.567:   OpenType support missing for "", script 16
+17:42:03.567:   OpenType support missing for "", script 16
+17:42:03.596: Last log entry repeated for 66 more lines
+17:42:03.596:   OpenType support missing for "DejaVu Sans", script 16
+17:42:03.596:   OpenType support missing for "Verdana", script 16
+17:42:03.597:   OpenType support missing for "Arial", script 16
+17:42:03.597:   OpenType support missing for "Carlito", script 16
+17:42:03.598:   OpenType support missing for "Font Awesome 6 Brands", script 16
+17:42:03.598:   OpenType support missing for "Font Awesome 6 Free", script 16
+17:42:03.598:   OpenType support missing for "Font Awesome v4 Compatibility", script 16
+17:42:03.599:   OpenType support missing for "Font Awesome 5 Brands", script 16
+17:42:03.599:   OpenType support missing for "Font Awesome 5 Free", script 16
+17:42:03.599:   OpenType support missing for "IBM Plex Sans", script 16
+17:42:03.600:   OpenType support missing for "IBM Plex Serif", script 16
+17:42:03.600:   OpenType support missing for "Times New Roman", script 16
+17:42:03.601:   OpenType support missing for "Courier New", script 16
+17:42:03.601:   OpenType support missing for "DejaVu Sans Mono", script 16
+17:42:03.601:   OpenType support missing for "DejaVu Serif", script 16
+17:42:03.602:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+17:42:03.602:   OpenType support missing for "Liberation Mono", script 16
+17:42:03.603:   OpenType support missing for "Liberation Sans", script 16
+17:42:03.603:   OpenType support missing for "Liberation Serif", script 16
+17:42:03.604:   OpenType support missing for "Arial Black", script 16
+17:42:03.604:   OpenType support missing for "Source Code Pro", script 16
+17:42:03.605:   OpenType support missing for "BlexMono Nerd Font", script 16
+17:42:03.605:   OpenType support missing for "BlexMono Nerd Font Mono", script 16
+17:42:03.605:   OpenType support missing for "BlexMono Nerd Font Propo", script 16
+17:42:03.606:   OpenType support missing for "IBM Plex Mono", script 16
+17:42:03.606:   OpenType support missing for "Andale Mono", script 16
+17:42:03.606:   OpenType support missing for "Open Sans", script 16
+17:42:03.606:   OpenType support missing for "SourceCodeVF", script 16
+17:42:03.607:   OpenType support missing for "IBM Plex Sans Arabic", script 16
+17:42:03.608:   OpenType support missing for "IBM Plex Sans Hebrew", script 16
+17:42:03.608:   OpenType support missing for "IBM Plex Sans Devanagari", script 16
+17:42:03.608:   OpenType support missing for "IBM Plex Sans Thai", script 16
+17:42:03.608:   OpenType support missing for "IBM Plex Sans Thai Looped", script 16
+17:42:03.609:   OpenType support missing for "IBM Plex Sans JP", script 16
+17:42:03.609:   OpenType support missing for "IBM Plex Sans KR", script 16
+17:42:03.610:   OpenType support missing for "Comic Sans MS", script 16
+17:42:03.611:   OpenType support missing for "Georgia", script 16
+17:42:03.612:   OpenType support missing for "IBM Plex Sans TC", script 16
+17:42:03.613:   OpenType support missing for "Trebuchet MS", script 16
+17:42:03.613:   OpenType support missing for "Cantarell", script 16
+17:42:03.614:   OpenType support missing for "Impact", script 16
+17:42:03.614:   OpenType support missing for "IBM Plex Sans Condensed", script 16
+17:42:03.615:   OpenType support missing for "Terminus", script 16
+17:42:03.616:   OpenType support missing for "Noto Color Emoji", script 16
+17:42:03.616:   OpenType support missing for "Symbola", script 16
+17:42:03.616:   OpenType support missing for "Webdings", script 16
+17:42:03.617:   OpenType support missing for "", script 16
+17:42:03.617:   OpenType support missing for "", script 16
+17:42:03.618:   OpenType support missing for "", script 16
+17:42:03.619:   OpenType support missing for "", script 16
+17:42:03.619:   OpenType support missing for "", script 16
+17:42:03.620:   OpenType support missing for "", script 16
+17:42:03.620:   OpenType support missing for "", script 16
+17:42:03.620:   OpenType support missing for "", script 16
+17:42:03.621:   OpenType support missing for "", script 16
+17:42:03.621:   OpenType support missing for "", script 16
+17:42:03.621:   OpenType support missing for "", script 16
+17:42:03.621:   OpenType support missing for "", script 16
+17:42:03.622:   OpenType support missing for "", script 16
+17:42:03.622:   OpenType support missing for "", script 16
+17:42:03.622:   OpenType support missing for "", script 16
+17:42:03.623:   OpenType support missing for "", script 16
+17:42:03.623:   OpenType support missing for "", script 16
+17:42:03.624:   OpenType support missing for "", script 16
+17:42:03.624:   OpenType support missing for "", script 16
+17:42:03.625:   OpenType support missing for "", script 16
+17:42:03.625:   OpenType support missing for "", script 16
+17:42:03.625:   OpenType support missing for "", script 16
+17:42:03.626:   OpenType support missing for "", script 16
+17:42:03.626:   OpenType support missing for "", script 16
+17:42:03.626:   OpenType support missing for "", script 16
+17:42:03.627:   OpenType support missing for "", script 16
+17:42:03.628:   OpenType support missing for "", script 16
+17:42:03.629:   OpenType support missing for "", script 16
+17:42:03.630:   OpenType support missing for "", script 16
+17:42:03.631:   OpenType support missing for "", script 16
+17:42:03.632:   OpenType support missing for "", script 16
+17:42:03.665: Last log entry repeated for 67 more lines
+17:42:03.665:   OpenType support missing for "Open Sans", script 20
+17:42:03.667:   OpenType support missing for "Arial", script 20
+17:42:03.667:   OpenType support missing for "DejaVu Sans", script 20
+17:42:03.667:   OpenType support missing for "Verdana", script 20
+17:42:03.668:   OpenType support missing for "Carlito", script 20
+17:42:03.668:   OpenType support missing for "Font Awesome 6 Brands", script 20
+17:42:03.669:   OpenType support missing for "Font Awesome 6 Free", script 20
+17:42:03.669:   OpenType support missing for "Font Awesome v4 Compatibility", script 20
+17:42:03.670:   OpenType support missing for "Font Awesome 5 Brands", script 20
+17:42:03.670:   OpenType support missing for "Font Awesome 5 Free", script 20
+17:42:03.670:   OpenType support missing for "IBM Plex Sans", script 20
+17:42:03.671:   OpenType support missing for "IBM Plex Serif", script 20
+17:42:03.671:   OpenType support missing for "Times New Roman", script 20
+17:42:03.672:   OpenType support missing for "Courier New", script 20
+17:42:03.672:   OpenType support missing for "DejaVu Sans Mono", script 20
+17:42:03.672:   OpenType support missing for "DejaVu Serif", script 20
+17:42:03.673:   OpenType support missing for "DejaVu Math TeX Gyre", script 20
+17:42:03.674:   OpenType support missing for "Liberation Mono", script 20
+17:42:03.674:   OpenType support missing for "Liberation Sans", script 20
+17:42:03.675:   OpenType support missing for "Liberation Serif", script 20
+17:42:03.675:   OpenType support missing for "Arial Black", script 20
+17:42:03.676:   OpenType support missing for "Source Code Pro", script 20
+17:42:03.676:   OpenType support missing for "BlexMono Nerd Font", script 20
+17:42:03.677:   OpenType support missing for "BlexMono Nerd Font Mono", script 20
+17:42:03.678:   OpenType support missing for "BlexMono Nerd Font Propo", script 20
+17:42:03.678:   OpenType support missing for "IBM Plex Mono", script 20
+17:42:03.679:   OpenType support missing for "Andale Mono", script 20
+17:42:03.680:   OpenType support missing for "SourceCodeVF", script 20
+17:42:03.680:   OpenType support missing for "IBM Plex Sans Arabic", script 20
+17:42:03.681:   OpenType support missing for "IBM Plex Sans Hebrew", script 20
+17:42:03.681:   OpenType support missing for "IBM Plex Sans Devanagari", script 20
+17:42:03.682:   OpenType support missing for "IBM Plex Sans Thai", script 20
+17:42:03.682:   OpenType support missing for "IBM Plex Sans Thai Looped", script 20
+17:42:03.682:   OpenType support missing for "IBM Plex Sans JP", script 20
+17:42:03.683:   OpenType support missing for "IBM Plex Sans KR", script 20
+17:42:03.683:   OpenType support missing for "Comic Sans MS", script 20
+17:42:03.683:   OpenType support missing for "Georgia", script 20
+17:42:03.684:   OpenType support missing for "IBM Plex Sans TC", script 20
+17:42:03.685:   OpenType support missing for "Trebuchet MS", script 20
+17:42:03.685:   OpenType support missing for "Cantarell", script 20
+17:42:03.686:   OpenType support missing for "Impact", script 20
+17:42:03.687:   OpenType support missing for "IBM Plex Sans Condensed", script 20
+17:42:03.687:   OpenType support missing for "Terminus", script 20
+17:42:03.688:   OpenType support missing for "Noto Color Emoji", script 20
+17:42:03.689:   OpenType support missing for "Symbola", script 20
+17:42:03.690:   OpenType support missing for "Webdings", script 20
+17:42:03.691:   OpenType support missing for "", script 20
+17:42:03.691:   OpenType support missing for "", script 20
+17:42:03.692:   OpenType support missing for "", script 20
+17:42:03.693:   OpenType support missing for "", script 20
+17:42:03.693:   OpenType support missing for "", script 20
+17:42:03.694:   OpenType support missing for "", script 20
+17:42:03.695:   OpenType support missing for "", script 20
+17:42:03.696:   OpenType support missing for "", script 20
+17:42:03.697:   OpenType support missing for "", script 20
+17:42:03.697:   OpenType support missing for "", script 20
+17:42:03.698:   OpenType support missing for "", script 20
+17:42:03.699:   OpenType support missing for "", script 20
+17:42:03.700:   OpenType support missing for "", script 20
+17:42:03.700:   OpenType support missing for "", script 20
+17:42:03.701:   OpenType support missing for "", script 20
+17:42:03.701:   OpenType support missing for "", script 20
+17:42:03.702:   OpenType support missing for "", script 20
+17:42:03.702:   OpenType support missing for "", script 20
+17:42:03.703:   OpenType support missing for "", script 20
+17:42:03.704:   OpenType support missing for "", script 20
+17:42:03.704:   OpenType support missing for "", script 20
+17:42:03.704:   OpenType support missing for "", script 20
+17:42:03.705:   OpenType support missing for "", script 20
+17:42:03.705:   OpenType support missing for "", script 20
+17:42:03.706:   OpenType support missing for "", script 20
+17:42:03.706:   OpenType support missing for "", script 20
+17:42:03.707:   OpenType support missing for "", script 20
+17:42:03.707:   OpenType support missing for "", script 20
+17:42:03.708:   OpenType support missing for "", script 20
+17:42:03.709:   OpenType support missing for "", script 20
+17:42:03.709:   OpenType support missing for "", script 20
+17:42:03.745: Last log entry repeated for 66 more lines
+17:42:03.746:   OpenType support missing for "DejaVu Sans", script 20
+17:42:03.746:   OpenType support missing for "Verdana", script 20
+17:42:03.747:   OpenType support missing for "Arial", script 20
+17:42:03.747:   OpenType support missing for "Carlito", script 20
+17:42:03.748:   OpenType support missing for "Font Awesome 6 Brands", script 20
+17:42:03.749:   OpenType support missing for "Font Awesome 6 Free", script 20
+17:42:03.750:   OpenType support missing for "Font Awesome v4 Compatibility", script 20
+17:42:03.750:   OpenType support missing for "Font Awesome 5 Brands", script 20
+17:42:03.751:   OpenType support missing for "Font Awesome 5 Free", script 20
+17:42:03.751:   OpenType support missing for "IBM Plex Sans", script 20
+17:42:03.752:   OpenType support missing for "IBM Plex Serif", script 20
+17:42:03.753:   OpenType support missing for "Times New Roman", script 20
+17:42:03.753:   OpenType support missing for "Courier New", script 20
+17:42:03.754:   OpenType support missing for "DejaVu Sans Mono", script 20
+17:42:03.754:   OpenType support missing for "DejaVu Serif", script 20
+17:42:03.754:   OpenType support missing for "DejaVu Math TeX Gyre", script 20
+17:42:03.755:   OpenType support missing for "Liberation Mono", script 20
+17:42:03.755:   OpenType support missing for "Liberation Sans", script 20
+17:42:03.755:   OpenType support missing for "Liberation Serif", script 20
+17:42:03.756:   OpenType support missing for "Arial Black", script 20
+17:42:03.756:   OpenType support missing for "Source Code Pro", script 20
+17:42:03.757:   OpenType support missing for "BlexMono Nerd Font", script 20
+17:42:03.757:   OpenType support missing for "BlexMono Nerd Font Mono", script 20
+17:42:03.758:   OpenType support missing for "BlexMono Nerd Font Propo", script 20
+17:42:03.758:   OpenType support missing for "IBM Plex Mono", script 20
+17:42:03.758:   OpenType support missing for "Andale Mono", script 20
+17:42:03.758:   OpenType support missing for "Open Sans", script 20
+17:42:03.759:   OpenType support missing for "SourceCodeVF", script 20
+17:42:03.759:   OpenType support missing for "IBM Plex Sans Arabic", script 20
+17:42:03.760:   OpenType support missing for "IBM Plex Sans Hebrew", script 20
+17:42:03.760:   OpenType support missing for "IBM Plex Sans Devanagari", script 20
+17:42:03.760:   OpenType support missing for "IBM Plex Sans Thai", script 20
+17:42:03.761:   OpenType support missing for "IBM Plex Sans Thai Looped", script 20
+17:42:03.762:   OpenType support missing for "IBM Plex Sans JP", script 20
+17:42:03.762:   OpenType support missing for "IBM Plex Sans KR", script 20
+17:42:03.762:   OpenType support missing for "Comic Sans MS", script 20
+17:42:03.763:   OpenType support missing for "Georgia", script 20
+17:42:03.763:   OpenType support missing for "IBM Plex Sans TC", script 20
+17:42:03.764:   OpenType support missing for "Trebuchet MS", script 20
+17:42:03.765:   OpenType support missing for "Cantarell", script 20
+17:42:03.765:   OpenType support missing for "Impact", script 20
+17:42:03.766:   OpenType support missing for "IBM Plex Sans Condensed", script 20
+17:42:03.767:   OpenType support missing for "Terminus", script 20
+17:42:03.768:   OpenType support missing for "Noto Color Emoji", script 20
+17:42:03.768:   OpenType support missing for "Symbola", script 20
+17:42:03.769:   OpenType support missing for "Webdings", script 20
+17:42:03.769:   OpenType support missing for "", script 20
+17:42:03.770:   OpenType support missing for "", script 20
+17:42:03.770:   OpenType support missing for "", script 20
+17:42:03.771:   OpenType support missing for "", script 20
+17:42:03.771:   OpenType support missing for "", script 20
+17:42:03.771:   OpenType support missing for "", script 20
+17:42:03.771:   OpenType support missing for "", script 20
+17:42:03.772:   OpenType support missing for "", script 20
+17:42:03.772:   OpenType support missing for "", script 20
+17:42:03.773:   OpenType support missing for "", script 20
+17:42:03.773:   OpenType support missing for "", script 20
+17:42:03.773:   OpenType support missing for "", script 20
+17:42:03.774:   OpenType support missing for "", script 20
+17:42:03.774:   OpenType support missing for "", script 20
+17:42:03.775:   OpenType support missing for "", script 20
+17:42:03.775:   OpenType support missing for "", script 20
+17:42:03.775:   OpenType support missing for "", script 20
+17:42:03.776:   OpenType support missing for "", script 20
+17:42:03.776:   OpenType support missing for "", script 20
+17:42:03.776:   OpenType support missing for "", script 20
+17:42:03.777:   OpenType support missing for "", script 20
+17:42:03.778:   OpenType support missing for "", script 20
+17:42:03.778:   OpenType support missing for "", script 20
+17:42:03.779:   OpenType support missing for "", script 20
+17:42:03.779:   OpenType support missing for "", script 20
+17:42:03.779:   OpenType support missing for "", script 20
+17:42:03.779:   OpenType support missing for "", script 20
+17:42:03.780:   OpenType support missing for "", script 20
+17:42:03.781:   OpenType support missing for "", script 20
+17:42:03.781:   OpenType support missing for "", script 20
+17:42:03.782:   OpenType support missing for "", script 20
+17:42:37.708: Last log entry repeated for 67 more lines
+17:42:37.708: Settings changed (outputs)
+17:42:37.708: ------------------------------------------------
+17:42:40.391: Switched to Preview/Program mode
+17:42:40.391: ------------------------------------------------
+17:49:46.663: Switched to scene 'Сцена'
+17:49:46.664: Switched to regular Preview mode
+17:49:46.665: ------------------------------------------------
+17:49:48.872: Switched to Preview/Program mode
+17:49:48.872: ------------------------------------------------
+17:49:50.334: Switched to scene 'Сцена'
+17:49:50.336: Switched to regular Preview mode
+17:49:50.336: ------------------------------------------------
+17:56:57.763: ==== Recording Start ===============================================
+17:58:51.868: Output 'simple_ffmpeg_output': stopping
+17:58:51.868: Output 'simple_ffmpeg_output': Total frames output: 6845
+17:58:51.868: Output 'simple_ffmpeg_output': Total drawn frames: 6847
+17:58:51.868: ==== Recording Stop ================================================
+18:10:23.731: Get on org.freedesktop.portal.Settings returned an invalid reply
+18:10:23.731: Get on org.freedesktop.portal.Settings returned an invalid reply
+18:10:50.443: Settings changed (outputs)
+18:10:50.443: ------------------------------------------------
+18:23:51.376: ==== Shutting down ==================================================
+18:23:52.059: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor'
+18:23:52.059: pulse-input: Got 100873 packets with 121047600 frames
+18:23:52.060: pulse-input: Stopped recording from 'alsa_input.pci-0000_07_00.6.analog-stereo'
+18:23:52.060: pulse-input: Got 100872 packets with 121046400 frames
+18:23:52.091: All scene data cleared
+18:23:52.091: ------------------------------------------------
+18:23:52.163: [Scripting] Total detached callbacks: 0
+18:23:52.163: Freeing OBS context data
+18:23:52.192: == Profiler Results =============================
+18:23:52.192: run_program_init: 1550.11 ms
+18:23:52.192:  ┣OBSApp::AppInit: 38.316 ms
+18:23:52.192:  ┃ ┗OBSApp::InitLocale: 10.616 ms
+18:23:52.192:  ┗OBSApp::OBSInit: 1357.86 ms
+18:23:52.192:    ┣obs_startup: 2.488 ms
+18:23:52.192:    ┗OBSBasic::OBSInit: 1255.77 ms
+18:23:52.192:      ┣OBSBasic::InitBasicConfig: 0.178 ms
+18:23:52.192:      ┣OBSBasic::ResetAudio: 0.444 ms
+18:23:52.192:      ┣OBSBasic::ResetVideo: 195.517 ms
+18:23:52.192:      ┃ ┗obs_init_graphics: 186.585 ms
+18:23:52.193:      ┃   ┗shader compilation: 60.617 ms
+18:23:52.193:      ┣OBSBasic::InitOBSCallbacks: 0.011 ms
+18:23:52.193:      ┣OBSBasic::InitHotkeys: 0.058 ms
+18:23:52.193:      ┣obs_load_all_modules2: 883.208 ms
+18:23:52.193:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+18:23:52.193:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+18:23:52.193:      ┃ ┣obs_init_module(decklink.so): 0.606 ms
+18:23:52.193:      ┃ ┣obs_init_module(frontend-tools.so): 141.611 ms
+18:23:52.193:      ┃ ┣obs_init_module(image-source.so): 0.024 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-capture.so): 0.757 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-jack.so): 0.006 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-pipewire.so): 18.113 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.007 ms
+18:23:52.193:      ┃ ┣obs_init_module(linux-v4l2.so): 9.297 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-ffmpeg.so): 29.41 ms
+18:23:52.193:      ┃ ┃ ┗nvenc_check: 2.159 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-filters.so): 0.07 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-libfdk.so): 0.003 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-outputs.so): 0.007 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-qsv11.so): 19.939 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-transitions.so): 0.019 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-vst.so): 0.01 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-webrtc.so): 0.01 ms
+18:23:52.193:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+18:23:52.193:      ┃ ┣obs_init_module(rtmp-services.so): 2.009 ms
+18:23:52.193:      ┃ ┗obs_init_module(text-freetype2.so): 0.037 ms
+18:23:52.193:      ┣OBSBasic::InitService: 3.307 ms
+18:23:52.193:      ┣OBSBasic::ResetOutputs: 1.023 ms
+18:23:52.193:      ┣OBSBasic::CreateHotkeys: 0.035 ms
+18:23:52.193:      ┣OBSBasic::InitPrimitives: 0.109 ms
+18:23:52.193:      ┗OBSBasic::Load: 55.309 ms
+18:23:52.193: obs_hotkey_thread(25 ms): min=0.076 ms, median=0.148 ms, max=14.543 ms, 99th percentile=1.221 ms, 100% below 25 ms
+18:23:52.193: audio_thread(Audio): min=0.018 ms, median=0.092 ms, max=16.01 ms, 99th percentile=0.277 ms
+18:23:52.193:  ┗receive_audio: min=0.003 ms, median=0.472 ms, max=15.841 ms, 99th percentile=1.512 ms, 0.000921581 calls per parent call
+18:23:52.193:    ┣buffer_audio: min=0.001 ms, median=0.001 ms, max=0.008 ms, 99th percentile=0.006 ms
+18:23:52.193:    ┗do_encode: min=0.311 ms, median=0.467 ms, max=15.837 ms, 99th percentile=1.507 ms
+18:23:52.193:      ┣encode(simple_aac_recording0): min=0.303 ms, median=0.455 ms, max=1.493 ms, 99th percentile=1.043 ms
+18:23:52.193:      ┗send_packet: min=0.002 ms, median=0.009 ms, max=15.119 ms, 99th percentile=0.317 ms
+18:23:52.193: obs_graphics_thread(16.6667 ms): min=0.192 ms, median=0.5 ms, max=47.431 ms, 99th percentile=2.386 ms, 99.9947% below 16.667 ms
+18:23:52.193:  ┣tick_sources: min=0 ms, median=0.104 ms, max=18.064 ms, 99th percentile=0.998 ms
+18:23:52.193:  ┣output_frame: min=0.125 ms, median=0.29 ms, max=13.555 ms, 99th percentile=1.22 ms
+18:23:52.193:  ┃ ┣gs_context(video->graphics): min=0.125 ms, median=0.29 ms, max=13.546 ms, 99th percentile=0.896 ms
+18:23:52.193:  ┃ ┃ ┣render_video: min=0.022 ms, median=0.093 ms, max=4.252 ms, 99th percentile=0.345 ms
+18:23:52.194:  ┃ ┃ ┃ ┣render_main_texture: min=0.017 ms, median=0.087 ms, max=4.231 ms, 99th percentile=0.235 ms
+18:23:52.194:  ┃ ┃ ┃ ┣render_output_texture: min=0.022 ms, median=0.044 ms, max=1.136 ms, 99th percentile=0.108 ms, 0.0461491 calls per parent call
+18:23:52.194:  ┃ ┃ ┃ ┣render_convert_texture: min=0.023 ms, median=0.044 ms, max=1.342 ms, 99th percentile=0.087 ms, 0.0461491 calls per parent call
+18:23:52.194:  ┃ ┃ ┃ ┗stage_output_texture: min=0.015 ms, median=0.028 ms, max=0.3 ms, 99th percentile=0.058 ms, 0.0461491 calls per parent call
+18:23:52.194:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.181 ms, max=13.477 ms, 99th percentile=0.666 ms
+18:23:52.194:  ┃ ┃ ┗download_frame: min=0 ms, median=0.09 ms, max=1.395 ms, 99th percentile=0.2 ms, 0.0461491 calls per parent call
+18:23:52.194:  ┃ ┗output_video_data: min=0.149 ms, median=0.367 ms, max=1.915 ms, 99th percentile=0.582 ms, 0.0461359 calls per parent call
+18:23:52.194:  ┗render_displays: min=0.002 ms, median=0.008 ms, max=47.142 ms, 99th percentile=1.075 ms
+18:23:52.194: video_thread(video): min=0.001 ms, median=0.43 ms, max=17.194 ms, 99th percentile=1.492 ms
+18:23:52.194:  ┗receive_video: min=0.001 ms, median=1.376 ms, max=17.192 ms, 99th percentile=5.215 ms, 0.0197595 calls per parent call
+18:23:52.194:    ┗do_encode: min=0.961 ms, median=1.373 ms, max=17.19 ms, 99th percentile=5.212 ms
+18:23:52.194:      ┣encode(simple_video_recording): min=0.944 ms, median=1.354 ms, max=5.211 ms, 99th percentile=4.321 ms
+18:23:52.194:      ┗send_packet: min=0.003 ms, median=0.012 ms, max=16.023 ms, 99th percentile=0.112 ms, 0.817518 calls per parent call
+18:23:52.194: OBSBasicSettings::LoadThemeList: min=0.093 ms, median=0 ms, max=0.159 ms, 99th percentile=0.159 ms
+18:23:52.194: OBSBasic::ResetOutputs: min=0.132 ms, median=0 ms, max=0.192 ms, 99th percentile=0.192 ms
+18:23:52.194: =================================================
+18:23:52.194: == Profiler Time Between Calls ==================
+18:23:52.194: obs_hotkey_thread(25 ms): min=25.112 ms, median=25.226 ms, max=39.631 ms, 92.0235% within ±2% of 25 ms (0% lower, 7.97649% higher)
+18:23:52.194: obs_graphics_thread(16.6667 ms): min=2.562 ms, median=16.667 ms, max=47.439 ms, 98.3934% within ±2% of 16.667 ms (0.791396% lower, 0.815178% higher)
+18:23:52.194: =================================================
+18:23:52.228: Number of memory leaks: 0
