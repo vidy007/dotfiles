@@ -72,7 +72,9 @@ require("lazy").setup({
 	   config = true
    },
    { "mfussenegger/nvim-dap" },
-  },
+   { "rcarriga/nvim-dap-ui", dependencies = {"mfussenegger/nvim-dap", "nvim-neotest/nvim-nio"} },
+   { "folke/neodev.nvim" },
+},
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
   install = { colorscheme = { "gruvbox" } },
@@ -129,6 +131,22 @@ require("lazy").setup({
 --   extensions = {}
 -- }
 -- }
+require("neodev").setup({
+  library = { plugins = { "nvim-dap-ui" }, types = true }, 
+})
+require("dapui").setup()
+local dap = require('dap')
+dap.configurations.python = {
+      {
+        type = 'gdb';
+        request = 'launch';
+        name = "Launch file";
+        program = "${file}";
+        pythonPath = function()
+          return '/usr/bin/python'
+        end;
+      },
+}
 require('mini.icons').setup()
 require('mini.starter').setup()
 require('mini.statusline').setup()
@@ -143,7 +161,17 @@ require('mini.surround').setup()
 require'lspconfig'.pyright.setup{}
 require('nvim-highlight-colors').setup({})
 require('mini.clue').setup()
-require('mini.animate').setup()
+local animate = require('mini.animate')
+animate.setup({
+  cursor = {
+    timing = animate.gen_timing.exponential({ easing = 'out', duration = 12, unit = 'step' }),
+    path = animate.gen_path.walls({ predicate = false, width = 10 })
+  },
+
+  scroll = {
+    timing = animate.gen_timing.cubic({ easing = 'out', duration = 12, unit = 'step' })
+  },
+})
 require('mini.files').setup()
 require('mini.comment').setup()
 require'lspconfig'.html.setup {
