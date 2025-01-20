@@ -1,11 +1,6 @@
 ## My rice!
 # Preview!
-![](./docs/1.png)
-![](./docs/2.png)
-![](./docs/3.png)
-![](./docs/4.png)
-![](./docs/5.png)
-video preview is coming soon
+coming soon
 # Info!
 this wallpaper was found [here](https://gruvbox-wallpapers.pages.dev) in the "irl" section
 
