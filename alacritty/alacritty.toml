@@ -1,0 +1,40 @@
+
+[cursor]
+blink_interval = 550
+unfocused_hollow = true
+thickness = 0.15
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[selection]
+save_to_clipboard = true
+
+[window]
+dynamic_title = true
+# opacity = 0.95
+dynamic_padding = true
+decorations = "None"
+
+[window.padding]
+x = 20
+y = 20
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[general]
+
+
+live_config_reload = true
+#   █████╗ ██╗      █████╗  ██████╗██████╗ ██╗████████╗████████╗██╗   ██╗
+#  ██╔══██╗██║     ██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝╚══██╔══╝╚██╗ ██╔╝
+#  ███████║██║     ███████║██║     ██████╔╝██║   ██║      ██║    ╚████╔╝ 
+#  ██╔══██║██║     ██╔══██║██║     ██╔══██╗██║   ██║      ██║     ╚██╔╝  
+#  ██║  ██║███████╗██║  ██║╚██████╗██║  ██║██║   ██║      ██║      ██║   
+#  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝   
+#	vidy007 - https://github.com/vidy007/dotfiles
+
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]

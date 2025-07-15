@@ -1,0 +1,40 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor -d I II III
+
+bspc config border_width        1
+bspc config focused_border_color "#6e6a86"
+bspc config normal_border_color "#403d52"
+bspc config urgent_border_color "#ebdbb2"
+bspc config window_gap          5
+bspc config top_padding 0  
+bspc config right_padding 0  
+bspc config left_padding 0  
+bspc config bottom_padding 0  
+# bspc config center_pseudo_tiled         true
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle  true 
+bspc config gapless_monocle      true
+bspc config single_monocle true
+
+bspc config focus_follows_pointer true
+
+bspc rule -a Gimp desktop='^8' state=fullscreen follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a zoom state=floating border_width=0
+bspc rule -a steam state=fullscreen
+picom &
+polybar &
+feh --bg-scale ~/rosepine-x280.png &
+copyq &
+setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle &
+dunst &
+udiskie -s &
+xsetroot -cursor_name left_ptr &
+systemctl restart python3-validity
