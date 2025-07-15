@@ -1,5 +1,6 @@
 ### <p align=center>\* vidy007's dotfiles \* </p>
 <br>
+
 #### screenshots:
 
 ![](docs/1.png)
