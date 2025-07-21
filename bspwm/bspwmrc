@@ -38,3 +38,4 @@ dunst &
 udiskie -s &
 xsetroot -cursor_name left_ptr &
 systemctl restart python3-validity
+gentoo-pipewire-launcher &

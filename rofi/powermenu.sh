@@ -60,13 +60,13 @@ run_rofi() {
 # Execute Command
 run_cmd() {	
 	if [[ $1 == '--shutdown' ]]; then
-		systemctl poweroff
+		loginctl poweroff
 	elif [[ $1 == '--reboot' ]]; then
-		systemctl reboot
+		loginctl reboot
 	elif [[ $1 == '--suspend' ]]; then
 		mpc -q pause
 		amixer set Master mute
-		systemctl suspend
+		loginctl suspend
 	elif [[ $1 == '--logout' ]]; then
 		bspc quit
 	fi	

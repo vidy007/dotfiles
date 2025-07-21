@@ -11,6 +11,16 @@ XF86AudioMute
 	wpctl set-mute @DEFAULT_SINK@ toggle
 
 #
+# brightness control
+#
+
+XF86MonBrightnessUp
+	xbacklight -inc 5
+XF86MonBrightnessDown
+	xbacklight -dec 5
+
+
+#
 # disable middle button pasting
 #
 
